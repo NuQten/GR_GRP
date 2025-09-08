@@ -1,0 +1,4 @@
+# Ignore everything in the data directory
+/data/*
+# But do not ignore .txt files in data directory
+!/data/*.txt
