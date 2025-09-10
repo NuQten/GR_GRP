@@ -29,7 +29,7 @@ HTM = '.htm'
 
 # * Define function *
 
-def get_soup(url:str) -> BeautifulSoup | ValueError:
+def get_soup(url:str) -> BeautifulSoup | Exception:
     """Returns a BeautifulSoup object from an url
 
     Args:
@@ -54,7 +54,7 @@ def get_soup(url:str) -> BeautifulSoup | ValueError:
         print(error)
         return error
 
-def get_elevation(gr_name:str) -> requests.Response | ValueError:
+def get_elevation(gr_name:str) -> requests.Response | Exception:
     """Get elevation file from gr_name
 
     Args:
@@ -72,7 +72,7 @@ def get_elevation(gr_name:str) -> requests.Response | ValueError:
 
     return response
 
-def save_elevation(path:str, content) -> bool | ValueError:
+def save_elevation(path:str, content) -> bool | Exception:
     try :
         with open(path, 'wb') as file :
             file.write(content)
@@ -81,7 +81,7 @@ def save_elevation(path:str, content) -> bool | ValueError:
         print(f'Save unsuccessful : {error}')
         return error
 
-def get_gpx(gr_name:str) -> requests.Response | ValueError:
+def get_gpx(gr_name:str) -> requests.Response | Exception:
     try : 
         response = requests.get(URL_DOMAINE + PATH_GPX + gr_name + GPX)
     except Exception as error :  
@@ -90,7 +90,7 @@ def get_gpx(gr_name:str) -> requests.Response | ValueError:
 
     return response
 
-def save_gpx(path:str, content) -> bool | ValueError:
+def save_gpx(path:str, content) -> bool | Exception:
     try :
         with open(path, 'wb') as file :
             file.write(content)
@@ -99,7 +99,7 @@ def save_gpx(path:str, content) -> bool | ValueError:
         print(f'Save unsuccessful : {error}')
         return error
 
-def get_ign(gr_name:str) -> requests.Response | ValueError:
+def get_ign(gr_name:str) -> requests.Response | Exception:
     try : 
         response = requests.get(URL_DOMAINE + PATH_IGN + gr_name + '-min' + JPG)
     except Exception as error :  
@@ -108,7 +108,7 @@ def get_ign(gr_name:str) -> requests.Response | ValueError:
 
     return response
 
-def save_ign(path:str, content) -> bool | ValueError:
+def save_ign(path:str, content) -> bool | Exception:
     try :
         with open(path, 'wb') as file :
             file.write(content)
@@ -117,55 +117,82 @@ def save_ign(path:str, content) -> bool | ValueError:
         print(f'Save unsuccessful : {error}')
         return error
 
-def get_name(url) -> str | ValueError:
+def get_name(url) -> str | Exception:
     try : 
-        name = re.search(PATTERN_GR_NAME, url).group(1)
-        name = name[0:3].upper() + name[3:] 
+        search = re.search(PATTERN_GR_NAME, url)
+        if search is None :
+            raise Exception(f'No name found in url : {url}')
+        else : 
+            name = search.group(1)
+            name = name[0:3].upper() + name[3:] 
     except Exception as error :
         print(f'No name found : {error}')
         return error
     
     return name 
      
-def get_distance(soup: BeautifulSoup) -> int | float | ValueError:
+def get_distance(soup: BeautifulSoup) -> int | float | Exception:
     try :
-        distance = re.search(PATTERN_GR_INFO_DISTANCE, soup.text).group(1)
+        search = re.search(PATTERN_GR_INFO_DISTANCE, soup.text)
+        if search is None :
+            raise Exception('No distance found')    
+        else :
+            distance = search.group(1)
+
         if ',' in distance:
             return float(distance.replace(',', '.'))
+        elif '.' in distance:
+            return float(distance)
         else:  
             return int(distance)
     except Exception as error :
         print(f'distance no found : {error}')
         return error
 
-def get_denivele(soup: BeautifulSoup) -> int | ValueError:
+def get_denivele(soup: BeautifulSoup) -> int | Exception:
     try :
-        denivele = re.search(PATTERN_GR_INFO_DENIVELE, soup.text).group(1)
-        return int(denivele)
+        search = re.search(PATTERN_GR_INFO_DENIVELE, soup.text)
+        if search is None :
+            raise Exception('No denivele found')    
+        else :
+            denivele = search.group(1)
+            return int(denivele)
     except Exception as error :
         print(f'denivele no found : {error}')
         return error 
 
-def get_alt_max(soup: BeautifulSoup) -> int | ValueError:
+def get_alt_max(soup: BeautifulSoup) -> int | Exception:
     try :
-        alt_max = re.search(PATTERN_GR_INFO_ALTITUDE_MAX, soup.text).group(1)
-        return int(alt_max)
+        search = re.search(PATTERN_GR_INFO_ALTITUDE_MAX, soup.text)
+        if search is None :
+            raise Exception('No altitude max found')    
+        else :
+            alt_max = search.group(1)
+            return int(alt_max)
     except Exception as error :
         print(f'altitude max no found : {error}')
         return error  
 
-def get_alt_min(soup: BeautifulSoup) -> int | ValueError:
+def get_alt_min(soup: BeautifulSoup) -> int | Exception:
     try :
-        alt_min = re.search(PATTERN_GR_INFO_ALTITUDE_MIN, soup.text).group(1)
-        return int(alt_min)
+        search = re.search(PATTERN_GR_INFO_ALTITUDE_MIN, soup.text)
+        if search is None :
+            raise Exception('No altitude min found')    
+        else :
+            alt_min = search.group(1)
+            return int(alt_min)
     except Exception as error :
         print(f'altitude min no found : {error}')
         return error 
 
-def get_titles(soup: BeautifulSoup) -> list | ValueError:
+def get_titles(soup: BeautifulSoup) -> list | Exception:
     try :
-        title = soup.find('h1').text
-        return title
+        search = soup.find('h1')
+        if search is None :
+            raise Exception('No title found')
+        else : 
+            title = search.text
+            return title
             
     except Exception as error :
         print(f'titles no found : {error}')
@@ -185,7 +212,7 @@ def is_url(url: str) -> bool:
     else :
         return False
     
-def get_data(url: str) -> list[str]:
+def get_data(url: str) -> tuple[dict, list[str]]:
     """Get data from an url
 
     Args:
@@ -204,7 +231,7 @@ def get_data(url: str) -> list[str]:
         name = get_name(url) # name of the GR
         if isinstance(name, Exception) :
             list_error.append('Name unfound for url : ' + url)
-            name = None
+            name = 'unfound'
             
         distance = get_distance(soup) # distance of the GR
         if isinstance(distance, Exception) :
@@ -272,11 +299,11 @@ def get_data(url: str) -> list[str]:
             print(f'json save error : {error}')
             list_error.append(name + ' : json save error')
 
-        return list_error
+        return (dict_info, list_error)
 
     else : 
         list_error.append('Soup error for url : ' + url)
-        return list_error
+        return ({}, list_error)
 
 
 if __name__ == "__main__":
@@ -291,15 +318,24 @@ if __name__ == "__main__":
     list_all_gr = GR_LIST + GRP_LIST
 
     list_error = []
+    dict_all_gr = {}
 
     # * Browse the list of link *
     for url in list_all_gr :
-        errors = get_data(url[:-1])
+        dict, errors = get_data(url[:-1])
         for error in errors :
             list_error.append(error)
+        if dict != {} :
+            dict_all_gr[dict['name']] = dict
         print(f'End of {url}')
         
-
+    # * Write data file *
+    try :
+        with open(os.path.join(ABSPATH_PROJECT, 'data', 'all_gr_data.json'), 'w', encoding='utf-8') as file :
+            json.dump(dict_all_gr, file, ensure_ascii=False, indent=4, default=str)
+    except Exception as error :
+        print(f'Error write data file : {error}')
+        
     # * Write error file *
     str_list_error = ''
 

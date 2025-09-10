@@ -2,3 +2,4 @@
 /data/*
 # But do not ignore .txt files in data directory
 !/data/*.txt
+!/data/*.json
