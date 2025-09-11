@@ -4,3 +4,5 @@
 !/data/*.txt
 !/data/*.json
 !/data/*.csv
+
+/data_sure/*
