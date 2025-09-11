@@ -1,5 +1,4 @@
 import pandas
-import json
 import os
 
 ABSPATH_FILE = os.path.abspath(__file__)
