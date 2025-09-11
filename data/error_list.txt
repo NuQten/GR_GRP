@@ -1,9 +1,9 @@
-grr3 : distance unfound
-grr3 : denivele unfound
-grr3 : alt_max unfound
-grr3 : alt_min unfound
-grp-gervanne : titles unfound
-grp-maquisards : distance unfound
-grp-maquisards : denivele unfound
-grp-maquisards : alt_max unfound
-grp-maquisards : alt_min unfound
+DONE | grr3 : distance unfound
+DONE | grr3 : denivele unfound
+DONE | grr3 : alt_max unfound
+DONE | grr3 : alt_min unfound
+DONE | grp-gervanne : titles unfound
+DONE | grp-maquisards : distance unfound
+DONE | grp-maquisards : denivele unfound
+DONE | grp-maquisards : alt_max unfound
+DONE | grp-maquisards : alt_min unfound
