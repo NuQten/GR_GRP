@@ -1,3 +1,4 @@
+from re import T
 import pandas
 import os
 
@@ -9,8 +10,10 @@ if __name__ == "__main__":
 
     # Convert JSON to DataFrame
     data_frame = pandas.read_json(os.path.join(ABSPATH_PROJECT, 'data', 'all_gr_data.json'), orient='index')
-    data_frame.reset_index(inplace=True)
+    data_frame.reset_index(drop=True, inplace=True)
+
 
     # Save to CSV
-    data_frame.to_csv(os.path.join(ABSPATH_PROJECT, 'data', 'all_gr_data.csv'), index_label='id', sep=',', encoding='utf-8')
+    data_frame.to_csv(os.path.join(ABSPATH_PROJECT, 'data', 'all_gr_data.csv'), index_label= 'id', sep=',', encoding='utf-8')
+
 

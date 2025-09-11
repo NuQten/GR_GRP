@@ -1,340 +1,340 @@
-id,index,name,distance,denivele,altitude_max,altitude_min,title
-0,gr1,gr1,546.0,5722.0,217.0,16.0,GR®1 Tour d'Ile de France
-1,gr2,gr2,858.0,12384.0,577.0,2.0,GR®2 Sentier de la Seine
-2,gr3,gr3,1300.0,15823.0,1609.0,0.0,GR®3 Sentier de la Loire
-3,gr3_C,gr3_C,150.0,490.0,174.0,78.0,GR®3C
-4,gr3_F,gr3_F,129.0,3692.0,1084.0,506.0,GR®3F
-5,gr4,gr4,1578.0,35972.0,1881.0,0.0,GR®4 De l'Atlantique à la Méditerranée
-6,gr5,gr5,1526.0,56777.0,2763.0,5.0,GR®5 Du Luxembourg à la Méditerranée
-7,gr5_B,gr5_B,14.6,839.0,2269.0,1744.0,GR®5B
-8,gr5_C,gr5_C,23.81,1156.0,2488.0,1283.0,GR®5C
-9,gr5_E,gr5_E,45.0,910.0,1790.0,1066.0,GR®5E Chemin du Petit Bonheur
-10,gr5_F,gr5_F,405.0,7926.0,1240.0,142.0,GR®5F Vallée de la Moselle
-11,gr5_G,gr5_G,96.0,1439.0,402.0,168.0,GR®5G
-12,gr6,gr6,1339.0,33812.0,2661.0,1.0,GR®6
-13,gr7,gr7,1467.0,38934.0,2517.0,131.0,GR®7 Des Vosges aux Pyrénées
-14,gr8,gr8,266.0,528.0,30.0,0.0,GR®8
-15,gr9,gr9,970.0,37883.0,1902.0,2.0,GR®9 Du Jura à la Méditerranée
-16,gr10,gr10,900.0,55071.0,2732.0,1.0,GR®10 La Grande traversée des Pyrénées
-17,gr11,gr11,657.0,6766.0,218.0,21.0,GR®11 Tour du Pays d'Ile de France
-18,gr12,gr12,284.0,3576.0,387.0,30.0,GR®12
-19,gr13,gr13,462.0,8158.0,899.0,59.0,GR®13
-20,gr14,gr14,247.0,3084.0,420.0,115.0,GR®14 Sentier des Ardennes
-21,gr14_A,gr14_A,126.0,1294.0,189.0,35.0,GR®14A
-22,gr14_B,gr14_B,135.0,995.0,282.0,116.0,GR®14B
-23,gr20,gr20,178.0,12536.0,2598.0,250.0,GR®20 Traversée de la Corse
-24,gr21,gr21,194.0,2792.0,130.0,2.0,GR®21 Sentier des Falaises
-25,gr22,gr22,567.0,7295.0,398.0,4.0,GR®22 Sentier du Mont Saint-Michel
-26,gr23,gr23,125.0,1983.0,147.0,0.0,GR®23
-27,gr25,gr25,79.0,865.0,174.0,7.0,GR®25
-28,gr26,gr26,306.0,3814.0,200.0,18.0,GR®26
-29,gr30,gr30,197.0,5488.0,1874.0,684.0,GR®30
-30,gr31,gr31,283.0,2345.0,388.0,67.0,GR®31 A travers la  Sologne
-31,gr32,gr32,136.0,699.0,141.0,42.0,GR®32
-32,gr34,gr34,2106.0,16749.0,124.0,0.0,GR®34 Sentier des douaniers
-33,gr34_A,gr34_A,158.0,2252.0,290.0,4.0,GR®34A
-34,gr34_C,gr34_C,66.0,676.0,94.0,4.0,GR®34C
-35,gr34_E,gr34_E,45.0,771.0,126.0,2.0,GR®34E
-36,gr35,gr35,433.0,2947.0,277.0,14.0,GR®35
-37,gr36,gr36,1928.0,38098.0,2375.0,3.0,GR®36 De la Manche aux Pyrénées
-38,gr37,gr37,780.0,9461.0,380.0,0.0,GR®37 Cœur de Bretagne
-39,gr38,gr38,366.0,4924.0,257.0,2.0,GR®38
-40,gr39,gr39,314.0,3400.0,115.0,1.0,GR®39
-41,gr40,gr40,188.0,4752.0,1582.0,534.0,GR®40
-42,gr41,gr41,445.0,4622.0,755.0,45.0,GR®41 Vallée du Cher
-43,gr42,gr42,453.0,9753.0,1297.0,1.0,GR®42 Balcons du Rhône
-44,gr43,gr43,108.0,2872.0,1530.0,539.0,GR®43
-45,gr44,gr44,93.0,3303.0,1453.0,191.0,GR®44
-46,gr44_B,gr44_B,76.0,2853.0,911.0,162.0,GR®44B
-47,gr46,gr46,972.0,16253.0,763.0,46.0,GR®46
-48,gr48,gr48,318.0,3224.0,344.0,30.0,GR®48
-49,gr49,gr49,107.0,3912.0,1683.0,2.0,GR®49
-50,gr50,gr50,371.0,19016.0,2367.0,720.0,GR®50
-51,gr51,gr51,436.0,15214.0,1074.0,0.0,GR®51 Balcon de la Méditerranée
-52,gr52,gr52,214.0,12571.0,2714.0,2.0,GR®52
-53,gr53,gr53,164.0,5927.0,1002.0,159.0,GR®53
-54,gr54,gr54,184.0,11982.0,2759.0,717.0,GR®54
-55,gr55,gr55,54.0,2495.0,2796.0,1059.0,GR®55
-56,gr56,gr56,152.0,8720.0,2674.0,1021.0,GR®56
-57,gr57,gr57,84.0,5152.0,2829.0,1480.0,GR®57
-58,gr58,gr58,107.0,7674.0,2888.0,1175.0,GR®58
-59,gr59,gr59,605.0,16380.0,1246.0,218.0,GR®59 Des Vosges au Jura
-60,gr60,gr60,176.0,4516.0,1547.0,89.0,GR®60
-61,gr61,gr61,35.0,1722.0,1050.0,130.0,GR®61
-62,gr62,gr62,222.0,6279.0,1300.0,231.0,GR®62
-63,gr62_A,gr62_A,26.0,538.0,952.0,662.0,GR®62A
-64,gr63,gr63,149.0,2676.0,748.0,16.0,GR®63
-65,gr64,gr64,84.0,1686.0,374.0,58.0,GR®64
-66,gr65,gr65,1139.0,23811.0,1426.0,54.0,GR®65 Saint Jacques de Compostelle
-67,gr66,gr66,82.0,2829.0,1558.0,702.0,GR®66
-68,gr67,gr67,125.0,3690.0,1168.0,129.0,GR®67
-69,gr68,gr68,115.0,4338.0,1453.0,542.0,GR®68
-70,gr69,gr69,404.0,11059.0,2506.0,2.0,GR®69 La Routo
-71,gr70,gr70,268.0,7655.0,1699.0,130.0,GR®70 Sentier Stevenson
-72,gr71,gr71,74.0,1181.0,1362.0,156.0,GR®71
-73,gr71_C,gr71_C,77.0,1474.0,865.0,524.0,GR®71C
-74,gr71_D,gr71_D,105.0,1689.0,865.0,488.0,GR®71D
-75,gr72,gr72,100.0,3199.0,1452.0,556.0,GR®72
-76,gr74,gr74,41.0,1501.0,835.0,111.0,GR®74
-77,gr75,gr75,51.0,367.0,117.0,30.0,GR®75
-78,gr76,gr76,184.0,5919.0,919.0,200.0,GR®76
-79,gr76_A,gr76_A,106.0,2650.0,906.0,179.0,GR®76A
-80,gr76_B,gr76_B,52.0,750.0,409.0,187.0,GR®76B
-81,gr77,gr77,82.0,2022.0,996.0,42.0,GR®77
-82,gr78,gr78,593.0,13717.0,1179.0,25.0,GR®78 Voie du Piémont
-83,gr80,gr80,27.0,86.0,27.0,0.0,GR®80
-84,gr86,gr86,277.0,5674.0,1224.0,130.0,GR®86
-85,gr89,gr89,515.0,9882.0,1123.0,168.0,GR®89 Chemin de Montaigne
-86,gr90,gr90,40.0,1942.0,760.0,9.0,GR®90
-87,gr91,gr91,261.0,10313.0,1965.0,78.0,GR®91 Traversée des Hauts Plateaux du Vercors
-88,gr93,gr93,231.0,10480.0,2101.0,167.0,GR®93 Traversée du Vercors
-89,gr94,gr94,120.0,6224.0,2005.0,652.0,GR®94
-90,gr95,gr95,81.0,4481.0,1469.0,260.0,GR®95
-91,gr96,gr96,207.0,11917.0,2355.0,244.0,GR®96
-92,gr98,gr98,61.0,4242.0,1020.0,0.0,GR®98
-93,gr99,gr99,179.0,5701.0,1559.0,64.0,GR®99
-94,gr101,gr101,141.0,2994.0,1596.0,105.0,GR®101
-95,gr105,gr105,56.0,2812.0,2390.0,557.0,GR®105
-96,gr107,gr107,125.0,6832.0,2509.0,590.0,GR®107 Chemin des Bonshommes
-97,gr108,gr108,45.0,2422.0,2173.0,409.0,GR®108
-98,gr113,gr113,165.0,2286.0,209.0,54.0,GR®113
-99,gr120,gr120,299.0,1217.0,142.0,0.0,GR®120 Sentier du Littoral
-100,gr121,gr121,283.0,1909.0,174.0,2.0,GR®121
-101,gr121_B,gr121_B,123.0,324.0,94.0,12.0,GR®121B
-102,gr121_C,gr121_C,51.75,250.0,132.0,0.0,GR®121C
-103,gr122,gr122,223.0,1834.0,234.0,14.0,GR®122
-104,gr123,gr123,244.0,2336.0,192.0,5.0,GR®123
-105,gr124,gr124,222.0,2554.0,175.0,25.0,GR®124
-106,gr125,gr125,255.0,3131.0,230.0,4.0,GR®125
-107,gr127,gr127,98.0,1209.0,193.0,59.0,GR®127
-108,gr128,gr128,152.0,1659.0,181.0,2.0,GR®128 Route de Flandre
-109,gr130,gr130,56.0,170.0,62.0,5.0,GR®130
-110,gr131,gr131,103.0,2175.0,813.0,249.0,GR®131
-111,gr132,gr132,36.34,302.0,194.0,94.0,GR®132
-112,gr137,gr137,51.0,986.0,579.0,313.0,GR®137
-113,gr142,gr142,108.0,1569.0,285.0,47.0,GR®142
-114,gr145,gr145,1005.0,10695.0,1218.0,3.0,GR®145 Via Francigena
-115,gr169,gr169,171.0,2205.0,570.0,155.0,GR®169
-116,gr210,gr210,85.0,1059.0,175.0,8.0,GR®210
-117,gr211,gr211,61.0,1020.0,150.0,8.0,GR®211
-118,gr212,gr212,68.0,737.0,176.0,0.0,GR®212
-119,gr213,gr213,114.92,1505.0,382.0,142.0,GR®213
-120,gr221,gr221,329.0,4524.0,321.0,10.0,GR®221
-121,gr222,gr222,129.0,1216.0,193.0,4.0,GR®222
-122,gr223,gr223,619.0,3931.0,149.0,0.0,GR®223 Littoral de la Normandie
-123,gr223_A,gr223_A,30.89,456.0,174.0,6.0,GR®223A
-124,gr223_B,gr223_B,33.3,314.0,167.0,8.0,GR®223B
-125,gr224,gr224,153.79,1687.0,211.0,0.0,GR®224
-126,gr226,gr226,62.13,975.0,335.0,75.0,GR®226
-127,gr235,gr235,210.91,1367.0,245.0,67.0,GR®235
-128,gr300,gr300,378.0,5912.0,1119.0,186.0,GR®300 Chemin de Saint Michel
-129,gr303,gr303,263.0,2584.0,500.0,172.0,GR®303 Terre des Bourbons
-130,gr340,gr340,75.26,1674.0,50.0,2.0,GR®340
-131,gr341,gr341,168.9,2396.0,243.0,3.0,GR®341
-132,gr342,gr342,233.0,4610.0,1028.0,202.0,GR®342
-133,gr360,gr360,465.0,3694.0,139.0,2.0,GR®360
-134,gr364,gr364,495.0,4305.0,252.0,0.0,GR®364 Du Poitou à l'Océan
-135,gr365,gr365,296.0,2784.0,326.0,22.0,GR®365
-136,gr367,gr367,229.0,7908.0,1351.0,1.0,GR®367 Sentier Cathare
-137,gr367_A,gr367_A,72.0,2587.0,1142.0,249.0,GR®367A
-138,gr380,gr380,281.0,4092.0,381.0,3.0,GR®380
-139,gr400,gr400,134.31,6416.0,1818.0,766.0,GR®400
-140,gr406,gr406,164.41,4840.0,1296.0,424.0,GR®406
-141,gr413,gr413,66.14,263.0,134.0,77.0,GR®413
-142,gr420,gr420,234.03,7084.0,1573.0,139.0,GR®420
-143,gr422,gr422,269.3,3520.0,463.0,113.0,GR®422
-144,gr429,gr429,47.0,1008.0,875.0,64.0,GR®429
-145,gr430,gr430,205.0,5420.0,1300.0,596.0,GR®430
-146,gr440,gr440,194.0,4199.0,952.0,455.0,GR®440
-147,gr441,gr441,114.0,2659.0,1416.0,549.0,GR®441
-148,gr461,gr461,27.54,689.0,255.0,79.0,GR®461
-149,gr465,gr465,133.0,4891.0,1820.0,210.0,GR®465
-150,gr470,gr470,180.0,5753.0,1484.0,427.0,GR®470 Sources et Gorges de l'Allier
-151,gr480,gr480,63.62,1692.0,564.0,129.0,GR®480
-152,gr509,gr509,394.0,12071.0,1704.0,298.0,GR®509 Grande Traversée du Jura
-153,gr510,gr510,235.24,13539.0,1478.0,175.0,GR®510
-154,gr531,gr531,390.0,12734.0,1304.0,148.0,GR®531 Traversée du Massif des Vosges
-155,gr532,gr532,510.0,14778.0,1325.0,156.0,GR®532 Crête des Vosges et hautes vallées vosgiennes
-156,gr533,gr533,242.0,7867.0,1170.0,247.0,GR®533 Crêtes et lacs des Vosges
-157,gr534,gr534,217.0,2887.0,732.0,136.0,GR®534 Sentier Stanislas-Kléber
-158,gr559,gr559,91.0,2709.0,1111.0,256.0,GR®559
-159,gr559_A,gr559_A,28.58,703.0,1073.0,668.0,GR®559A
-160,gr620,gr620,46.87,1082.0,801.0,350.0,GR®620
-161,gr636,gr636,73.0,1054.0,211.0,65.0,GR®636
-162,gr646,gr646,116.0,1621.0,210.0,13.0,GR®646
-163,gr651,gr651,55.32,1568.0,338.0,139.0,GR®651
-164,gr652,gr652,342.0,8356.0,543.0,39.0,GR®652 Voie de Rocamadour
-165,gr653,gr653,807.0,13688.0,1632.0,1.0,GR®653 Voie d'Arles - Via Tolosana
-166,gr653_A,gr653_A,393.0,7410.0,796.0,0.0,GR®653A Via Aurelia
-167,gr653_D,gr653_D,433.0,10502.0,1859.0,2.0,GR®653D Via Domitia
-168,gr654,gr654,1570.0,17680.0,684.0,11.0,GR®654 Via Lemovicensis
-169,gr654_EST,gr654_EST,183.0,2767.0,199.0,25.0,GR®654 EST
-170,gr655,gr655,1492.0,9274.0,261.0,2.0,GR®655 Via Turonensis
-171,gr670,gr670,174.0,5393.0,1425.0,412.0,GR®670
-172,gr700,gr700,244.0,4041.0,1235.0,5.0,GR®700 Voie Régordane - Chemin de St Gilles
-173,gr703,gr703,235.0,3572.0,426.0,172.0,GR®703 Chemin historique de Jeanne d'Arc
-174,gr714,gr714,158.0,2110.0,477.0,222.0,GR®714
-175,gr736,gr736,303.0,9785.0,1452.0,142.0,GR®736 Vallée et Gorges du Tarn
-176,gr738,gr738,124.0,10159.0,2551.0,279.0,GR®738
-177,gr765,gr765,323.0,6479.0,1169.0,244.0,GR®765 Saint Jacques de Compostelle
-178,gr765_EST,gr765_EST,189.0,5014.0,1167.0,161.0,GR®765 EST Saint Jacques de Compostelle
-179,gr782,gr782,48.0,321.0,520.0,145.0,GR®782
-180,gr787,gr787,57.0,1385.0,639.0,20.0,GR®787
-181,gr800,gr800,225.0,946.0,133.0,4.0,GR®800 Sentier de la Somme
-182,gr861,gr861,166.0,2104.0,510.0,133.0,GR®861 Via Garona
-183,gr965,gr965,409.0,14736.0,1579.0,209.0,GR®965 Sur les pas  des Huguenots
-184,gr2013,gr2013,346.0,6213.0,884.0,0.0,GR®2013
-185,grr1,grr1,52.0,4614.0,2494.0,699.0,GR®R1
-186,grr2,grr2,134.0,10122.0,2496.0,41.0,GR®R2
-187,grr3,grr3,,,,,Not Found
-188,grp-troyes,grp-troyes,66.0,488.0,264.0,97.0,Tour de Troyes (Aube)
-189,grp-lo-camin-olt,grp-lo-camin-olt,122.0,4723.0,699.0,205.0,Tour sur Lo Camin d'Olt (Aveyron)
-190,grp-sarce-hozain,grp-sarce-hozain,80.0,815.0,321.0,136.0,Tour des Vallées de la Sarce et de l'Hozain (Aube)
-191,grp-lyonnais-coteaux,grp-lyonnais-coteaux,84.0,2212.0,924.0,224.0,Tour des Coteaux du Lyonnais (Rhône)
-192,grp-pouzauges-fiefs,grp-pouzauges-fiefs,63.0,781.0,277.0,73.0,Tour des Fiefs de Pouzauges (Vendée)
-193,grp-retif-bretonne,grp-retif-bretonne,68.0,878.0,320.0,98.0,Tour du Pays de Rétif de La Bretonne (Yonne)
-194,grp-mandragore,grp-mandragore,86.0,956.0,365.0,128.0,"Tour de la Mandragore (Charente, Haute-Vienne)"
-195,grp-port-cros,grp-port-cros,7.6,232.0,172.0,1.0,Tour des crêtes de l'île de Port Cros (Var)
-196,grp-ardechoise,grp-ardechoise,242.0,7349.0,1549.0,660.0,Tour de la Montagne Ardéchoise (Ardèche)
-197,grp-lure,grp-lure,115.0,4206.0,1591.0,466.0,"Tour de la montagne de Lure (Alpes-de-Haute-Provence, Drôme)"
-198,grp-troisvillages,grp-troisvillages,9.0,422.0,1172.0,808.0,Tour des trois villages au pays Toy (Hautes-Pyrénées)
-199,grp-deodatie-nord,grp-deodatie-nord,133.0,4240.0,804.0,280.0,"Tour de la Déodatie Nord (Vosges, Meurthe-et-Moselle)"
-200,grp-entre-deux-lacs,grp-entre-deux-lacs,48.0,1315.0,647.0,144.0,Entre Deux Lacs
-201,grp-ventoux,grp-ventoux,104.0,3497.0,867.0,279.0,"Tour du Mont Ventoux (Drôme, Vaucluse)"
-202,grp-corse-mareamare-centre,grp-corse-mareamare-centre,84.0,4463.0,1521.0,2.0,Corse. Mare à Mare (Centre)
-203,grp-corse-mareemonti-nord,grp-corse-mareemonti-nord,122.0,7180.0,1234.0,0.0,Corse. Mare è Monti (Nord)
-204,grp-vologne,grp-vologne,146.0,3895.0,1324.0,357.0,Tour de la Vologne (Vosges)
-205,grp-bresse-comtoise,grp-bresse-comtoise,105.0,1060.0,472.0,198.0,Tour de la Bresse Comtoise (Jura)
-206,grp-aubrac,grp-aubrac,167.0,3530.0,1425.0,792.0,Tour des Monts Aubrac (Lozère-Aveyron-Cantal)
-207,grp-midi-quercy,grp-midi-quercy,174.0,3227.0,393.0,91.0,"Tour du Midi Quercy (Tarn-et-Garonne, Tarn, Lot)"
-208,grp-bigouden,grp-bigouden,97.0,259.0,48.0,1.0,Tour du Pays Bigouden (Finistère)
-209,grp-sologne,grp-sologne,217.0,574.0,170.0,77.0,"Tour de Sologne (Loiret, Cher, Loir-et-Cher)"
-210,grp-chassezac,grp-chassezac,46.0,1610.0,1090.0,323.0,Tour des Gorges du Chassezac (Lozère)
-211,grp-porquerolles,grp-porquerolles,13.0,480.0,123.0,2.0,Tour de l'île de Porquerolles (Var)
-212,grp-vezere,grp-vezere,46.0,1287.0,398.0,117.0,Tour des Gorges de la Vézère (Corrèze)
-213,grp-corse-transhumance,grp-corse-transhumance,73.0,4299.0,1835.0,94.0, Corse. Transhumance
-214,grp-levezou-monts,grp-levezou-monts,109.0,2646.0,1141.0,621.0,Tour des Monts du Lévézou (Aveyron)
-215,grp-gervanne,grp-gervanne,101.0,4119.0,1384.0,215.0,Tour de la Gervanne (Drôme)
-216,grp-mejean,grp-mejean,118.0,3559.0,1157.0,405.0,Tour du Causse Méjean (Lozère)
-217,grp-luech,grp-luech,47.0,1785.0,1349.0,297.0,Tour de la Haute Vallée du Luech (Gard-Lozère)
-218,grp-buech,grp-buech,215.0,10984.0,2005.0,551.0,"Tour du Buëch (Hautes-Alpes, Drôme)"
-219,grp-uchaux,grp-uchaux,45.0,930.0,257.0,36.0,Tour du Massif d'Uchaux (Vaucluse)
-220,grp-xaintrie-noire,grp-xaintrie-noire,61.0,1533.0,631.0,175.0,Tour de la Xaintrie Noire (Corrèze)
-221,grp-sumene-artense,grp-sumene-artense,136.0,4182.0,948.0,337.0,"Tour de Sumène Artense (Cantal, Corrèze, Puy-de-Dôme)"
-222,grp-xaintrie-blanche,grp-xaintrie-blanche,60.0,1431.0,618.0,280.0,Tour de la Xaintrie Blanche (Corrèze)
-223,grp-lacs-amance-temple,grp-lacs-amance-temple,45.0,263.0,183.0,123.0,Tour des Lacs Amance et du Temple (Aube)
-224,grp-hauts-de-meuse,grp-hauts-de-meuse,95.0,1623.0,400.0,206.0,Tour des Hauts de Meuse
-225,grp-haute-vallee-thore,grp-haute-vallee-thore,80.0,2343.0,994.0,259.0,"Tour de la Haute Vallée du Thoré (Tarn, Aude, Hérault)"
-226,grp-baronnies-de-bigorre,grp-baronnies-de-bigorre,65.0,2662.0,1230.0,316.0,Tour des Baronnies de Bigorre (Hautes-Pyrénées)
-227,grp-brenne,grp-brenne,307.0,1949.0,258.0,66.0,"Tour de la Brenne (Vienne, Indre, Indre-et-Loire)"
-228,grp-jeanne-arc,grp-jeanne-arc,55.0,805.0,417.0,248.0,"Tour du Pays de Jeanne d'Arc (Meuse, Vosges)"
-229,grp-ambazac,grp-ambazac,124.0,2280.0,638.0,310.0,Tour des Monts d'Ambazac (Haute-Vienne)
-230,grp-grands-crus,grp-grands-crus,88.0,1774.0,455.0,214.0,Grands Crus 
-231,grp-boulonnais,grp-boulonnais,116.0,1287.0,201.0,8.0,Tour du Boulonnais (Pas-de-Calais)
-232,grp-ecueille,grp-ecueille,95.0,582.0,190.0,110.0,Tour du pays d'Ecueillé (Indre)
-233,grp-marches-de-gatine,grp-marches-de-gatine,189.0,1535.0,220.0,79.0,"Tour des Marches de Gâtine (Deux-Sèvres, Vienne)"
-234,grp-courbet,grp-courbet,106.0,2865.0,883.0,295.0,Tour du Pays de Courbet (Doubs)
-235,grp-cascades-landes-tourbieres,grp-cascades-landes-tourbieres,63.0,1628.0,810.0,415.0,"Tour des Cascades, Landes et Tourbières (Creuse)"
-236,grp-viganais,grp-viganais,59.0,2427.0,1295.0,222.0,Tour du Viganais (Gard)
-237,grp-chatillon-sur-indre,grp-chatillon-sur-indre,56.0,471.0,191.0,91.0,Tour du pays de Châtillon-sur-Indre (Indre)
-238,grp-ceze,grp-ceze,57.0,2273.0,978.0,167.0,Tour de la Haute Vallée de la Cèze (Gard-Ardèche)
-239,grp-chalosse,grp-chalosse,52.0,614.0,120.0,27.0,Tour de la Haute Chalosse (Landes)
-240,grp-ventoux-sommet,grp-ventoux-sommet,61.0,2439.0,1882.0,457.0,"Tour du Mont Ventoux par le sommet (Drôme, Vaucluse)"
-241,grp-rasteau,grp-rasteau,39.0,815.0,360.0,156.0,Tour du Massif de Rasteau (Vaucluse)
-242,grp-tanargue,grp-tanargue,61.0,2664.0,1440.0,182.0,Tour du Tanargue (Ardèche)
-243,grp-maquisards,grp-maquisards,33.0,626.0,345.0,184.0,Boucle sur le sentier des Maquisards (Aube)
-244,grp-carlit,grp-carlit,50.0,2220.0,2433.0,1406.0,Tour du Carlit (Pyrénées-Orientales)
-245,grp-othe,grp-othe,52.0,828.0,295.0,155.0,Tour des forêts d'Othe (Aube)
-246,grp-margeride,grp-margeride,195.0,4217.0,1486.0,839.0,Tour de la Margeride (Lozère)
-247,grp-montmirail,grp-montmirail,57.0,1796.0,603.0,85.0,Tour des Dentelles de Montmirail (Vaucluse)
-248,grp-meandres-yonne,grp-meandres-yonne,71.0,963.0,236.0,123.0,Tour des Méandres de l'Yonne
-249,grp-lyonnais-monts,grp-lyonnais-monts,103.0,3218.0,936.0,240.0,Tour des Monts du Lyonnais (Rhône-Loire)
-250,grp-ouessant,grp-ouessant,32.0,285.0,62.0,5.0,Tour de l'Ile d'Ouessant (Finistère)
-251,grp-truyere,grp-truyere,102.0,2493.0,1041.0,727.0,"Tour des Gorges de la Truyère (Cantal, Lozère)"
-252,grp-gabariers,grp-gabariers,64.0,2281.0,515.0,140.0,Tour des Gabariers (Corrèze)
-253,grp-jacques,grp-jacques,44.0,757.0,250.0,132.0,"Tour de Saint-Jacques (Aube, Yonne)"
-254,grp-duche-de-normandie,grp-duche-de-normandie,104.0,336.0,210.0,107.0,Tour du Duch� de Normandie (Eure)
-255,grp-dieulefit,grp-dieulefit,110.0,5037.0,1316.0,213.0,Tour du Pays de Dieulefit (Drôme)
-256,grp-sevre-et-maine-bocage,grp-sevre-et-maine-bocage,144.0,1182.0,241.0,19.0,"Tour du bocage de Sèvre et Maine (Loire-Atlantique, Vendée)"
-257,grp-sevre-et-maine-collines,grp-sevre-et-maine-collines,83.0,876.0,274.0,61.0,Tour des collines de Sèvre et Maine (Vendée)
-258,grp-paris,grp-paris,18.0,183.0,70.0,31.0,Traversée de Paris (Ouest-Est)
-259,grp-houat,grp-houat,14.0,64.0,26.0,3.0,Tour de l'île d'Houat (Morbihan)
-260,grp-provence-mines-energies-nord,grp-provence-mines-energies-nord,42.0,757.0,538.0,177.0,Tour en Provence Mines d'énergies Nord (Bouches-du-Rhône)
-261,grp-paris3,grp-paris3,23.0,85.0,71.0,28.0,Traversée de Paris (Est-Ouest-Nord)
-262,grp-cevenol,grp-cevenol,96.0,3650.0,1169.0,138.0,Le Cévenol De La Bastide-Puylaurent (Lozère) à Génolhac (Gard)
-263,grp-capcir,grp-capcir,63.0,1828.0,2331.0,1411.0,Tour du Capcir (Pyrénées-Orientales)
-264,grp-lac-grand-lieu,grp-lac-grand-lieu,70.0,130.0,48.0,1.0,Tour du Lac de Grand-Lieu (Loire-Atlantique)
-265,grp-nantais,grp-nantais,164.0,870.0,81.0,1.0,Tour du Pays Nantais (Loire-Atlantique)
-266,grp-lomont,grp-lomont,118.0,3116.0,839.0,334.0,Tour des Monts du Lomont (Doubs)
-267,grp-france,grp-france,8405.0,156714.0,2878.0,0.0,Tour de France
-268,grp-sevre-et-maine-vignoble,grp-sevre-et-maine-vignoble,120.0,630.0,72.0,2.0,"Tour du vignoble de Sèvre et Maine ( Loire-Atlantique, Vendée)"
-269,grp-valencay,grp-valencay,225.0,1515.0,195.0,75.0,"Tour du pays de Valençay (Indre, Loir-et-Cher)"
-270,grp-pouzauges-puys,grp-pouzauges-puys,58.0,775.0,284.0,97.0,Tour des Puys de Pouzauges (Vendée)
-271,grp-limousine,grp-limousine,91.0,798.0,223.0,79.0,Tour de la Vienne Limousine (Vienne)
-272,grp-salagou,grp-salagou,25.0,751.0,488.0,84.0,Tour du Lac de Salagou (Hérault)
-273,grp-pic-saint-loup-seranne,grp-pic-saint-loup-seranne,68.0,2107.0,777.0,44.0,Tour dans le Grand Pic St-Loup de la Séranne aux gorges de l'Hérault
-274,grp-corse-mareamare-sud,grp-corse-mareamare-sud,82.0,3748.0,1183.0,4.0,Corse. Mare à Mare (Sud)
-275,grp-deodatie-sud,grp-deodatie-sud,173.0,5428.0,988.0,337.0,Tour de la Déodatie Sud (Vosges)
-276,grp-yvelines,grp-yvelines,72.0,514.0,183.0,74.0,Traversée des Yvelines
-277,grp-prealpes,grp-prealpes,246.0,11808.0,1678.0,460.0,"Grande Traversée des Préalpes (Alpes-de-Haute-Provence, Hautes-Alpes)"
-278,grp-perics,grp-perics,46.0,2289.0,2587.0,1880.0,"Tour des Pérics (Pyrénées-Orientales, Ariège)"
-279,grp-pic-saint-loup-vignes,grp-pic-saint-loup-vignes,72.0,1123.0,540.0,73.0,Tour dans le Grand Pic Saint-Loup des Vignes aux Causses (Hérault)
-280,grp-paris1,grp-paris1,21.0,148.0,94.0,30.0,Traversée de Paris (Nord-Sud)
-281,grp-levezou-lacs,grp-levezou-lacs,103.0,2233.0,1004.0,588.0,Tour des Lacs du Lévézou (Aveyron)
-282,grp-deux-bar,grp-deux-bar,109.0,1685.0,346.0,135.0,Tour des Deux Bar (Aube)
-283,grp-trois-rivieres,grp-trois-rivieres,137.0,913.0,89.0,2.0,"Tour des trois rivières (Ille-et-Vilaine, Loire-Atlantique)"
-284,grp-st-guilhem,grp-st-guilhem,219.0,5436.0,1417.0,103.0,Chemin de Saint Guilhem
-285,grp-sonneurs,grp-sonneurs,189.0,2038.0,499.0,183.0,Sur les Pas des Maîtres Sonneurs (Indre-Cher-Allier)
-286,grp-midi-correzien,grp-midi-correzien,115.0,2990.0,518.0,129.0,Tour du Midi Corrézien (Corrèze)
-287,grp-bachelard,grp-bachelard,29.0,666.0,346.0,166.0,Tour du Pays de Gaston Bachelard (Aube)        
-288,grp-bordeaux,grp-bordeaux,121.0,548.0,71.0,1.0,Tour de Bordeaux (Gironde)
-289,grp-baronnies,grp-baronnies,222.0,10345.0,1519.0,355.0,Tour des Baronnies provençales (Drôme)
-290,grp-petites-roches,grp-petites-roches,40.0,2698.0,1625.0,682.0,Tour des Petites Roches (Isère)
-291,grp-caux-vallee-de-seine,grp-caux-vallee-de-seine,76.0,1485.0,150.0,3.0,Tour du Pays de Caux vallée de Seine (Seine-Maritime)
-292,grp-millevaches,grp-millevaches,58.0,1061.0,949.0,725.0,Tour du plateau de Millevaches (Corrèze)
-293,grp-mailles,grp-mailles,164.0,4691.0,1164.0,460.0,Tour de Robe de Bure et Cotte de Mailles (Haute-Loire)
-294,grp-larzac,grp-larzac,105.0,2721.0,827.0,240.0,Tour du Larzac Méridional (Hérault-Gard)
-295,grp-marches-de-meuse,grp-marches-de-meuse,99.0,1820.0,365.0,165.0,Tour des Marches de Meuse (Meuse)
-296,grp-vie-yon,grp-vie-yon,88.0,438.0,81.0,24.0,Tour entre Vie et Yon (Vendée)
-297,grp-cerdon,grp-cerdon,57.0,1956.0,742.0,250.0,Tour de la vallée de l'Ain au Pays de Cerdon (Ain) 
-298,grp-corse-mareemonti-sud,grp-corse-mareemonti-sud,74.0,2844.0,885.0,0.0,Corse. Mare è Monti (Sud)
-299,grp-corse-mareamare-nord,grp-corse-mareamare-nord,139.0,7739.0,1592.0,4.0,Corse. Mare à Mare (Nord)
-300,grp-gascogne,grp-gascogne,153.0,2463.0,264.0,69.0,Tour du Cœur de Gascogne (Gers)
-301,grp-avaloirs,grp-avaloirs,122.0,1680.0,415.0,105.0,"Tour du Mont des Avaloirs (Mayenne, Orne, Sarthe)"
-302,grp-balcon-valromey,grp-balcon-valromey,105.0,2476.0,1169.0,235.0,Tour du Balcon du Valromey (Ain) 
-303,grp-dordogne-ventadour,grp-dordogne-ventadour,92.0,2368.0,680.0,267.0,Entre Dordogne et Ventadour (Corrèze)
-304,grp-vaucluse,grp-vaucluse,66.0,2193.0,630.0,77.0,Tour des Monts de Vaucluse
-305,grp-blond,grp-blond,80.0,1237.0,495.0,236.0,Tour des Monts de Blond (Haute-Vienne)
-306,grp-ceinture-verte-ile-de-france,grp-ceinture-verte-ile-de-france,262.0,2477.0,188.0,21.0,Tour de la Ceinture Verte d'Ile-de-France
-307,grp-loutre,grp-loutre,84.0,489.0,108.0,6.0,Tour du sentier de la Loutre (Vendée)
-308,grp-paris2,grp-paris2,26.0,248.0,126.0,38.0,Traversée de Paris (Ouest-Est-Sud)
-309,grp-cerdagne,grp-cerdagne,75.0,1923.0,1863.0,1135.0,"Tour de Cerdagne  (Pyrénées-Orientales, Catalogne-Espagne)"
-310,grp-omois,grp-omois,219.0,2961.0,252.0,55.0,"Tour de l'Omois (Aisne, Marne, Oise) "
-311,grp-buech-meouge,grp-buech-meouge,76.0,3593.0,1609.0,557.0,"Tour de Buëch et Méouge (Drôme, Hautes-Alpes)"
-312,grp-groix,grp-groix,25.0,411.0,41.0,1.0,Tour de l'Ile de Groix (Morbihan)
-313,grp-sylve-argenson,grp-sylve-argenson,42.0,279.0,162.0,34.0,Traversée de la Sylve d'Argenson
-314,grp-suisse-normande,grp-suisse-normande,110.0,2687.0,266.0,22.0,"Tour de la Suisse normande (Calvados, Orne)"
-315,grp-luberon,grp-luberon,170.0,6188.0,1057.0,94.0,"Tour du Luberon (Vaucluse, Alpes-de-Haute-Provence)"
-316,grp-avallonnais,grp-avallonnais,194.0,3194.0,461.0,126.0,"Tour de l'Avallonnais (Yonne, Nièvre)"
-317,grp-jurassienne,grp-jurassienne,303.0,7326.0,1405.0,200.0,L'Echappée jurassienne
-318,grp-provence-mines-energies-est,grp-provence-mines-energies-est,43.0,785.0,649.0,256.0,Tour en Provence Mines d'énergies Est (Bouches-du-Rhône)
-319,grp-pic-saint-loup-villages,grp-pic-saint-loup-villages,47.0,966.0,440.0,90.0,Tour dans le Grand Pic St-Loup par les villages (Hérault)
-320,grp-dombes,grp-dombes,99.0,1320.0,709.0,166.0,Traversée de la Dombes
-321,grp-melusine,grp-melusine,104.0,1234.0,215.0,12.0,Tour de Mélusine (Vendée)
-322,grp-marches-de-bretagne,grp-marches-de-bretagne,74.0,630.0,181.0,46.0,Marches de Bretagne 
-323,grp-gorges-de-la-loire,grp-gorges-de-la-loire,85.0,2141.0,702.0,423.0,Tour des Gorges de la Loire (Haute-Loire)
-324,grp-revermont,grp-revermont,119.0,3639.0,649.0,218.0,"Tour du Revermont (Ain, Jura)"
-325,grp-TMB,grp-TMB,159.0,10383.0,2528.0,977.0,"Tour du Mont-Blanc (Haute-Savoie, Suisse, Italie)"
-326,grp-morvan,grp-morvan,231.0,6437.0,813.0,272.0,"Tour du Morvan (Nièvre, Saône-et-Loire, Côte-d'Or, Yonne)"
-327,grp-provence-mines-energies-sud,grp-provence-mines-energies-sud,64.0,1878.0,627.0,184.0,Tour en Provence Mines d'énergies Sud (Bouches-du-Rhône)
-328,grp-chartreuse,grp-chartreuse,104.0,6504.0,1903.0,578.0,"Tour de Chartreuse (Isère, Savoie)"
-329,grp-galeizon,grp-galeizon,56.0,2189.0,908.0,146.0,Tour de la Vallée du Galeizon (Gard-Lozère)
-330,grp-crozon,grp-crozon,148.0,3370.0,325.0,0.0,Tour de la presqu'île de Crozon (Finistère)
-331,grp-woevre,grp-woevre,75.0,795.0,415.0,208.0,Tour de la plaine de la Woëvre (Meuse)
-332,grp-sauveterre,grp-sauveterre,162.0,4150.0,1035.0,457.0,Tour du Causse Sauveterre (Lozère-Aveyron)
-333,grp-pic-saint-loup-londres,grp-pic-saint-loup-londres,54.0,1081.0,343.0,98.0,Tour dans le Grand Pic St-Loup entre Londres et Buèges (Hérault)
-334,grp-vins-fromages,grp-vins-fromages,111.0,1506.0,322.0,101.0,"Sentier des Vins et Fromages (Yonne, Aube)"
-335,grp-hautes-terres-oc,grp-hautes-terres-oc,191.0,4575.0,1242.0,173.0,"Tour des Hautes Terres d'Oc (Tarn, Hérault)"
-336,grp-roanne,grp-roanne,78.0,3621.0,1333.0,348.0,Tour de la Vallée de la Roanne (Drôme)
-337,grp-cidre,grp-cidre,30.0,457.0,299.0,170.0,"Circuit du cidre dans le Pays d'Othe (Aube, Yonne)"
-338,grp-margot,grp-margot,56.0,1431.0,701.0,367.0,Tour de la Reine Margot (Puy-de-Dôme)
+id,name,distance,denivele,altitude_max,altitude_min,title
+0,gr1,546.0,5722.0,217.0,16.0,GR®1 Tour d'Ile de France
+1,gr2,858.0,12384.0,577.0,2.0,GR®2 Sentier de la Seine
+2,gr3,1300.0,15823.0,1609.0,0.0,GR®3 Sentier de la Loire
+3,gr3_C,150.0,490.0,174.0,78.0,GR®3C
+4,gr3_F,129.0,3692.0,1084.0,506.0,GR®3F
+5,gr4,1578.0,35972.0,1881.0,0.0,GR®4 De l'Atlantique à la Méditerranée
+6,gr5,1526.0,56777.0,2763.0,5.0,GR®5 Du Luxembourg à la Méditerranée
+7,gr5_B,14.6,839.0,2269.0,1744.0,GR®5B
+8,gr5_C,23.81,1156.0,2488.0,1283.0,GR®5C
+9,gr5_E,45.0,910.0,1790.0,1066.0,GR®5E Chemin du Petit Bonheur
+10,gr5_F,405.0,7926.0,1240.0,142.0,GR®5F Vallée de la Moselle
+11,gr5_G,96.0,1439.0,402.0,168.0,GR®5G
+12,gr6,1339.0,33812.0,2661.0,1.0,GR®6
+13,gr7,1467.0,38934.0,2517.0,131.0,GR®7 Des Vosges aux Pyrénées
+14,gr8,266.0,528.0,30.0,0.0,GR®8
+15,gr9,970.0,37883.0,1902.0,2.0,GR®9 Du Jura à la Méditerranée
+16,gr10,900.0,55071.0,2732.0,1.0,GR®10 La Grande traversée des Pyrénées
+17,gr11,657.0,6766.0,218.0,21.0,GR®11 Tour du Pays d'Ile de France
+18,gr12,284.0,3576.0,387.0,30.0,GR®12
+19,gr13,462.0,8158.0,899.0,59.0,GR®13
+20,gr14,247.0,3084.0,420.0,115.0,GR®14 Sentier des Ardennes
+21,gr14_A,126.0,1294.0,189.0,35.0,GR®14A
+22,gr14_B,135.0,995.0,282.0,116.0,GR®14B
+23,gr20,178.0,12536.0,2598.0,250.0,GR®20 Traversée de la Corse
+24,gr21,194.0,2792.0,130.0,2.0,GR®21 Sentier des Falaises
+25,gr22,567.0,7295.0,398.0,4.0,GR®22 Sentier du Mont Saint-Michel
+26,gr23,125.0,1983.0,147.0,0.0,GR®23
+27,gr25,79.0,865.0,174.0,7.0,GR®25
+28,gr26,306.0,3814.0,200.0,18.0,GR®26
+29,gr30,197.0,5488.0,1874.0,684.0,GR®30
+30,gr31,283.0,2345.0,388.0,67.0,GR®31 A travers la  Sologne
+31,gr32,136.0,699.0,141.0,42.0,GR®32
+32,gr34,2106.0,16749.0,124.0,0.0,GR®34 Sentier des douaniers
+33,gr34_A,158.0,2252.0,290.0,4.0,GR®34A
+34,gr34_C,66.0,676.0,94.0,4.0,GR®34C
+35,gr34_E,45.0,771.0,126.0,2.0,GR®34E
+36,gr35,433.0,2947.0,277.0,14.0,GR®35
+37,gr36,1928.0,38098.0,2375.0,3.0,GR®36 De la Manche aux Pyrénées
+38,gr37,780.0,9461.0,380.0,0.0,GR®37 Cœur de Bretagne
+39,gr38,366.0,4924.0,257.0,2.0,GR®38
+40,gr39,314.0,3400.0,115.0,1.0,GR®39
+41,gr40,188.0,4752.0,1582.0,534.0,GR®40
+42,gr41,445.0,4622.0,755.0,45.0,GR®41 Vallée du Cher
+43,gr42,453.0,9753.0,1297.0,1.0,GR®42 Balcons du Rhône
+44,gr43,108.0,2872.0,1530.0,539.0,GR®43
+45,gr44,93.0,3303.0,1453.0,191.0,GR®44
+46,gr44_B,76.0,2853.0,911.0,162.0,GR®44B
+47,gr46,972.0,16253.0,763.0,46.0,GR®46
+48,gr48,318.0,3224.0,344.0,30.0,GR®48
+49,gr49,107.0,3912.0,1683.0,2.0,GR®49
+50,gr50,371.0,19016.0,2367.0,720.0,GR®50
+51,gr51,436.0,15214.0,1074.0,0.0,GR®51 Balcon de la Méditerranée
+52,gr52,214.0,12571.0,2714.0,2.0,GR®52
+53,gr53,164.0,5927.0,1002.0,159.0,GR®53
+54,gr54,184.0,11982.0,2759.0,717.0,GR®54
+55,gr55,54.0,2495.0,2796.0,1059.0,GR®55
+56,gr56,152.0,8720.0,2674.0,1021.0,GR®56
+57,gr57,84.0,5152.0,2829.0,1480.0,GR®57
+58,gr58,107.0,7674.0,2888.0,1175.0,GR®58
+59,gr59,605.0,16380.0,1246.0,218.0,GR®59 Des Vosges au Jura
+60,gr60,176.0,4516.0,1547.0,89.0,GR®60
+61,gr61,35.0,1722.0,1050.0,130.0,GR®61
+62,gr62,222.0,6279.0,1300.0,231.0,GR®62
+63,gr62_A,26.0,538.0,952.0,662.0,GR®62A
+64,gr63,149.0,2676.0,748.0,16.0,GR®63
+65,gr64,84.0,1686.0,374.0,58.0,GR®64
+66,gr65,1139.0,23811.0,1426.0,54.0,GR®65 Saint Jacques de Compostelle
+67,gr66,82.0,2829.0,1558.0,702.0,GR®66
+68,gr67,125.0,3690.0,1168.0,129.0,GR®67
+69,gr68,115.0,4338.0,1453.0,542.0,GR®68
+70,gr69,404.0,11059.0,2506.0,2.0,GR®69 La Routo
+71,gr70,268.0,7655.0,1699.0,130.0,GR®70 Sentier Stevenson
+72,gr71,74.0,1181.0,1362.0,156.0,GR®71
+73,gr71_C,77.0,1474.0,865.0,524.0,GR®71C
+74,gr71_D,105.0,1689.0,865.0,488.0,GR®71D
+75,gr72,100.0,3199.0,1452.0,556.0,GR®72
+76,gr74,41.0,1501.0,835.0,111.0,GR®74
+77,gr75,51.0,367.0,117.0,30.0,GR®75
+78,gr76,184.0,5919.0,919.0,200.0,GR®76
+79,gr76_A,106.0,2650.0,906.0,179.0,GR®76A
+80,gr76_B,52.0,750.0,409.0,187.0,GR®76B
+81,gr77,82.0,2022.0,996.0,42.0,GR®77
+82,gr78,593.0,13717.0,1179.0,25.0,GR®78 Voie du Piémont
+83,gr80,27.0,86.0,27.0,0.0,GR®80
+84,gr86,277.0,5674.0,1224.0,130.0,GR®86
+85,gr89,515.0,9882.0,1123.0,168.0,GR®89 Chemin de Montaigne
+86,gr90,40.0,1942.0,760.0,9.0,GR®90
+87,gr91,261.0,10313.0,1965.0,78.0,GR®91 Traversée des Hauts Plateaux du Vercors
+88,gr93,231.0,10480.0,2101.0,167.0,GR®93 Traversée du Vercors
+89,gr94,120.0,6224.0,2005.0,652.0,GR®94
+90,gr95,81.0,4481.0,1469.0,260.0,GR®95
+91,gr96,207.0,11917.0,2355.0,244.0,GR®96
+92,gr98,61.0,4242.0,1020.0,0.0,GR®98
+93,gr99,179.0,5701.0,1559.0,64.0,GR®99
+94,gr101,141.0,2994.0,1596.0,105.0,GR®101
+95,gr105,56.0,2812.0,2390.0,557.0,GR®105
+96,gr107,125.0,6832.0,2509.0,590.0,GR®107 Chemin des Bonshommes
+97,gr108,45.0,2422.0,2173.0,409.0,GR®108
+98,gr113,165.0,2286.0,209.0,54.0,GR®113
+99,gr120,299.0,1217.0,142.0,0.0,GR®120 Sentier du Littoral
+100,gr121,283.0,1909.0,174.0,2.0,GR®121
+101,gr121_B,123.0,324.0,94.0,12.0,GR®121B
+102,gr121_C,51.75,250.0,132.0,0.0,GR®121C
+103,gr122,223.0,1834.0,234.0,14.0,GR®122
+104,gr123,244.0,2336.0,192.0,5.0,GR®123
+105,gr124,222.0,2554.0,175.0,25.0,GR®124
+106,gr125,255.0,3131.0,230.0,4.0,GR®125
+107,gr127,98.0,1209.0,193.0,59.0,GR®127
+108,gr128,152.0,1659.0,181.0,2.0,GR®128 Route de Flandre
+109,gr130,56.0,170.0,62.0,5.0,GR®130
+110,gr131,103.0,2175.0,813.0,249.0,GR®131
+111,gr132,36.34,302.0,194.0,94.0,GR®132
+112,gr137,51.0,986.0,579.0,313.0,GR®137
+113,gr142,108.0,1569.0,285.0,47.0,GR®142
+114,gr145,1005.0,10695.0,1218.0,3.0,GR®145 Via Francigena
+115,gr169,171.0,2205.0,570.0,155.0,GR®169
+116,gr210,85.0,1059.0,175.0,8.0,GR®210
+117,gr211,61.0,1020.0,150.0,8.0,GR®211
+118,gr212,68.0,737.0,176.0,0.0,GR®212
+119,gr213,114.92,1505.0,382.0,142.0,GR®213
+120,gr221,329.0,4524.0,321.0,10.0,GR®221
+121,gr222,129.0,1216.0,193.0,4.0,GR®222
+122,gr223,619.0,3931.0,149.0,0.0,GR®223 Littoral de la Normandie
+123,gr223_A,30.89,456.0,174.0,6.0,GR®223A
+124,gr223_B,33.3,314.0,167.0,8.0,GR®223B
+125,gr224,153.79,1687.0,211.0,0.0,GR®224
+126,gr226,62.13,975.0,335.0,75.0,GR®226
+127,gr235,210.91,1367.0,245.0,67.0,GR®235
+128,gr300,378.0,5912.0,1119.0,186.0,GR®300 Chemin de Saint Michel
+129,gr303,263.0,2584.0,500.0,172.0,GR®303 Terre des Bourbons
+130,gr340,75.26,1674.0,50.0,2.0,GR®340
+131,gr341,168.9,2396.0,243.0,3.0,GR®341
+132,gr342,233.0,4610.0,1028.0,202.0,GR®342
+133,gr360,465.0,3694.0,139.0,2.0,GR®360
+134,gr364,495.0,4305.0,252.0,0.0,GR®364 Du Poitou à l'Océan
+135,gr365,296.0,2784.0,326.0,22.0,GR®365
+136,gr367,229.0,7908.0,1351.0,1.0,GR®367 Sentier Cathare
+137,gr367_A,72.0,2587.0,1142.0,249.0,GR®367A
+138,gr380,281.0,4092.0,381.0,3.0,GR®380
+139,gr400,134.31,6416.0,1818.0,766.0,GR®400
+140,gr406,164.41,4840.0,1296.0,424.0,GR®406
+141,gr413,66.14,263.0,134.0,77.0,GR®413
+142,gr420,234.03,7084.0,1573.0,139.0,GR®420
+143,gr422,269.3,3520.0,463.0,113.0,GR®422
+144,gr429,47.0,1008.0,875.0,64.0,GR®429
+145,gr430,205.0,5420.0,1300.0,596.0,GR®430
+146,gr440,194.0,4199.0,952.0,455.0,GR®440
+147,gr441,114.0,2659.0,1416.0,549.0,GR®441
+148,gr461,27.54,689.0,255.0,79.0,GR®461
+149,gr465,133.0,4891.0,1820.0,210.0,GR®465
+150,gr470,180.0,5753.0,1484.0,427.0,GR®470 Sources et Gorges de l'Allier
+151,gr480,63.62,1692.0,564.0,129.0,GR®480
+152,gr509,394.0,12071.0,1704.0,298.0,GR®509 Grande Traversée du Jura
+153,gr510,235.24,13539.0,1478.0,175.0,GR®510
+154,gr531,390.0,12734.0,1304.0,148.0,GR®531 Traversée du Massif des Vosges
+155,gr532,510.0,14778.0,1325.0,156.0,GR®532 Crête des Vosges et hautes vallées vosgiennes
+156,gr533,242.0,7867.0,1170.0,247.0,GR®533 Crêtes et lacs des Vosges
+157,gr534,217.0,2887.0,732.0,136.0,GR®534 Sentier Stanislas-Kléber
+158,gr559,91.0,2709.0,1111.0,256.0,GR®559
+159,gr559_A,28.58,703.0,1073.0,668.0,GR®559A
+160,gr620,46.87,1082.0,801.0,350.0,GR®620
+161,gr636,73.0,1054.0,211.0,65.0,GR®636
+162,gr646,116.0,1621.0,210.0,13.0,GR®646
+163,gr651,55.32,1568.0,338.0,139.0,GR®651
+164,gr652,342.0,8356.0,543.0,39.0,GR®652 Voie de Rocamadour
+165,gr653,807.0,13688.0,1632.0,1.0,GR®653 Voie d'Arles - Via Tolosana
+166,gr653_A,393.0,7410.0,796.0,0.0,GR®653A Via Aurelia
+167,gr653_D,433.0,10502.0,1859.0,2.0,GR®653D Via Domitia
+168,gr654,1570.0,17680.0,684.0,11.0,GR®654 Via Lemovicensis
+169,gr654_EST,183.0,2767.0,199.0,25.0,GR®654 EST
+170,gr655,1492.0,9274.0,261.0,2.0,GR®655 Via Turonensis
+171,gr670,174.0,5393.0,1425.0,412.0,GR®670
+172,gr700,244.0,4041.0,1235.0,5.0,GR®700 Voie Régordane - Chemin de St Gilles
+173,gr703,235.0,3572.0,426.0,172.0,GR®703 Chemin historique de Jeanne d'Arc
+174,gr714,158.0,2110.0,477.0,222.0,GR®714
+175,gr736,303.0,9785.0,1452.0,142.0,GR®736 Vallée et Gorges du Tarn
+176,gr738,124.0,10159.0,2551.0,279.0,GR®738
+177,gr765,323.0,6479.0,1169.0,244.0,GR®765 Saint Jacques de Compostelle
+178,gr765_EST,189.0,5014.0,1167.0,161.0,GR®765 EST Saint Jacques de Compostelle
+179,gr782,48.0,321.0,520.0,145.0,GR®782
+180,gr787,57.0,1385.0,639.0,20.0,GR®787
+181,gr800,225.0,946.0,133.0,4.0,GR®800 Sentier de la Somme
+182,gr861,166.0,2104.0,510.0,133.0,GR®861 Via Garona
+183,gr965,409.0,14736.0,1579.0,209.0,GR®965 Sur les pas  des Huguenots
+184,gr2013,346.0,6213.0,884.0,0.0,GR®2013
+185,grr1,52.0,4614.0,2494.0,699.0,GR®R1
+186,grr2,134.0,10122.0,2496.0,41.0,GR®R2
+187,grr3,,,,,Not Found
+188,grp-troyes,66.0,488.0,264.0,97.0,Tour de Troyes (Aube)
+189,grp-lo-camin-olt,122.0,4723.0,699.0,205.0,Tour sur Lo Camin d'Olt (Aveyron)
+190,grp-sarce-hozain,80.0,815.0,321.0,136.0,Tour des Vallées de la Sarce et de l'Hozain (Aube)
+191,grp-lyonnais-coteaux,84.0,2212.0,924.0,224.0,Tour des Coteaux du Lyonnais (Rhône)
+192,grp-pouzauges-fiefs,63.0,781.0,277.0,73.0,Tour des Fiefs de Pouzauges (Vendée)
+193,grp-retif-bretonne,68.0,878.0,320.0,98.0,Tour du Pays de Rétif de La Bretonne (Yonne)
+194,grp-mandragore,86.0,956.0,365.0,128.0,"Tour de la Mandragore (Charente, Haute-Vienne)"
+195,grp-port-cros,7.6,232.0,172.0,1.0,Tour des crêtes de l'île de Port Cros (Var)
+196,grp-ardechoise,242.0,7349.0,1549.0,660.0,Tour de la Montagne Ardéchoise (Ardèche)
+197,grp-lure,115.0,4206.0,1591.0,466.0,"Tour de la montagne de Lure (Alpes-de-Haute-Provence, Drôme)"
+198,grp-troisvillages,9.0,422.0,1172.0,808.0,Tour des trois villages au pays Toy (Hautes-Pyrénées)
+199,grp-deodatie-nord,133.0,4240.0,804.0,280.0,"Tour de la Déodatie Nord (Vosges, Meurthe-et-Moselle)"
+200,grp-entre-deux-lacs,48.0,1315.0,647.0,144.0,Entre Deux Lacs
+201,grp-ventoux,104.0,3497.0,867.0,279.0,"Tour du Mont Ventoux (Drôme, Vaucluse)"
+202,grp-corse-mareamare-centre,84.0,4463.0,1521.0,2.0,Corse. Mare à Mare (Centre)
+203,grp-corse-mareemonti-nord,122.0,7180.0,1234.0,0.0,Corse. Mare è Monti (Nord)
+204,grp-vologne,146.0,3895.0,1324.0,357.0,Tour de la Vologne (Vosges)
+205,grp-bresse-comtoise,105.0,1060.0,472.0,198.0,Tour de la Bresse Comtoise (Jura)
+206,grp-aubrac,167.0,3530.0,1425.0,792.0,Tour des Monts Aubrac (Lozère-Aveyron-Cantal)
+207,grp-midi-quercy,174.0,3227.0,393.0,91.0,"Tour du Midi Quercy (Tarn-et-Garonne, Tarn, Lot)"
+208,grp-bigouden,97.0,259.0,48.0,1.0,Tour du Pays Bigouden (Finistère)
+209,grp-sologne,217.0,574.0,170.0,77.0,"Tour de Sologne (Loiret, Cher, Loir-et-Cher)"
+210,grp-chassezac,46.0,1610.0,1090.0,323.0,Tour des Gorges du Chassezac (Lozère)
+211,grp-porquerolles,13.0,480.0,123.0,2.0,Tour de l'île de Porquerolles (Var)
+212,grp-vezere,46.0,1287.0,398.0,117.0,Tour des Gorges de la Vézère (Corrèze)
+213,grp-corse-transhumance,73.0,4299.0,1835.0,94.0, Corse. Transhumance
+214,grp-levezou-monts,109.0,2646.0,1141.0,621.0,Tour des Monts du Lévézou (Aveyron)
+215,grp-gervanne,101.0,4119.0,1384.0,215.0,Tour de la Gervanne (Drôme)
+216,grp-mejean,118.0,3559.0,1157.0,405.0,Tour du Causse Méjean (Lozère)
+217,grp-luech,47.0,1785.0,1349.0,297.0,Tour de la Haute Vallée du Luech (Gard-Lozère)
+218,grp-buech,215.0,10984.0,2005.0,551.0,"Tour du Buëch (Hautes-Alpes, Drôme)"
+219,grp-uchaux,45.0,930.0,257.0,36.0,Tour du Massif d'Uchaux (Vaucluse)
+220,grp-xaintrie-noire,61.0,1533.0,631.0,175.0,Tour de la Xaintrie Noire (Corrèze)
+221,grp-sumene-artense,136.0,4182.0,948.0,337.0,"Tour de Sumène Artense (Cantal, Corrèze, Puy-de-Dôme)"
+222,grp-xaintrie-blanche,60.0,1431.0,618.0,280.0,Tour de la Xaintrie Blanche (Corrèze)
+223,grp-lacs-amance-temple,45.0,263.0,183.0,123.0,Tour des Lacs Amance et du Temple (Aube)
+224,grp-hauts-de-meuse,95.0,1623.0,400.0,206.0,Tour des Hauts de Meuse
+225,grp-haute-vallee-thore,80.0,2343.0,994.0,259.0,"Tour de la Haute Vallée du Thoré (Tarn, Aude, Hérault)"
+226,grp-baronnies-de-bigorre,65.0,2662.0,1230.0,316.0,Tour des Baronnies de Bigorre (Hautes-Pyrénées)
+227,grp-brenne,307.0,1949.0,258.0,66.0,"Tour de la Brenne (Vienne, Indre, Indre-et-Loire)"
+228,grp-jeanne-arc,55.0,805.0,417.0,248.0,"Tour du Pays de Jeanne d'Arc (Meuse, Vosges)"
+229,grp-ambazac,124.0,2280.0,638.0,310.0,Tour des Monts d'Ambazac (Haute-Vienne)
+230,grp-grands-crus,88.0,1774.0,455.0,214.0,Grands Crus 
+231,grp-boulonnais,116.0,1287.0,201.0,8.0,Tour du Boulonnais (Pas-de-Calais)
+232,grp-ecueille,95.0,582.0,190.0,110.0,Tour du pays d'Ecueillé (Indre)
+233,grp-marches-de-gatine,189.0,1535.0,220.0,79.0,"Tour des Marches de Gâtine (Deux-Sèvres, Vienne)"
+234,grp-courbet,106.0,2865.0,883.0,295.0,Tour du Pays de Courbet (Doubs)
+235,grp-cascades-landes-tourbieres,63.0,1628.0,810.0,415.0,"Tour des Cascades, Landes et Tourbières (Creuse)"
+236,grp-viganais,59.0,2427.0,1295.0,222.0,Tour du Viganais (Gard)
+237,grp-chatillon-sur-indre,56.0,471.0,191.0,91.0,Tour du pays de Châtillon-sur-Indre (Indre)
+238,grp-ceze,57.0,2273.0,978.0,167.0,Tour de la Haute Vallée de la Cèze (Gard-Ardèche)
+239,grp-chalosse,52.0,614.0,120.0,27.0,Tour de la Haute Chalosse (Landes)
+240,grp-ventoux-sommet,61.0,2439.0,1882.0,457.0,"Tour du Mont Ventoux par le sommet (Drôme, Vaucluse)"
+241,grp-rasteau,39.0,815.0,360.0,156.0,Tour du Massif de Rasteau (Vaucluse)
+242,grp-tanargue,61.0,2664.0,1440.0,182.0,Tour du Tanargue (Ardèche)
+243,grp-maquisards,33.0,626.0,345.0,184.0,Boucle sur le sentier des Maquisards (Aube)
+244,grp-carlit,50.0,2220.0,2433.0,1406.0,Tour du Carlit (Pyrénées-Orientales)
+245,grp-othe,52.0,828.0,295.0,155.0,Tour des forêts d'Othe (Aube)
+246,grp-margeride,195.0,4217.0,1486.0,839.0,Tour de la Margeride (Lozère)
+247,grp-montmirail,57.0,1796.0,603.0,85.0,Tour des Dentelles de Montmirail (Vaucluse)
+248,grp-meandres-yonne,71.0,963.0,236.0,123.0,Tour des Méandres de l'Yonne
+249,grp-lyonnais-monts,103.0,3218.0,936.0,240.0,Tour des Monts du Lyonnais (Rhône-Loire)
+250,grp-ouessant,32.0,285.0,62.0,5.0,Tour de l'Ile d'Ouessant (Finistère)
+251,grp-truyere,102.0,2493.0,1041.0,727.0,"Tour des Gorges de la Truyère (Cantal, Lozère)"
+252,grp-gabariers,64.0,2281.0,515.0,140.0,Tour des Gabariers (Corrèze)
+253,grp-jacques,44.0,757.0,250.0,132.0,"Tour de Saint-Jacques (Aube, Yonne)"
+254,grp-duche-de-normandie,104.0,336.0,210.0,107.0,Tour du Duch� de Normandie (Eure)
+255,grp-dieulefit,110.0,5037.0,1316.0,213.0,Tour du Pays de Dieulefit (Drôme)
+256,grp-sevre-et-maine-bocage,144.0,1182.0,241.0,19.0,"Tour du bocage de Sèvre et Maine (Loire-Atlantique, Vendée)"
+257,grp-sevre-et-maine-collines,83.0,876.0,274.0,61.0,Tour des collines de Sèvre et Maine (Vendée)
+258,grp-paris,18.0,183.0,70.0,31.0,Traversée de Paris (Ouest-Est)
+259,grp-houat,14.0,64.0,26.0,3.0,Tour de l'île d'Houat (Morbihan)
+260,grp-provence-mines-energies-nord,42.0,757.0,538.0,177.0,Tour en Provence Mines d'énergies Nord (Bouches-du-Rhône)
+261,grp-paris3,23.0,85.0,71.0,28.0,Traversée de Paris (Est-Ouest-Nord)
+262,grp-cevenol,96.0,3650.0,1169.0,138.0,Le Cévenol De La Bastide-Puylaurent (Lozère) à Génolhac (Gard)
+263,grp-capcir,63.0,1828.0,2331.0,1411.0,Tour du Capcir (Pyrénées-Orientales)
+264,grp-lac-grand-lieu,70.0,130.0,48.0,1.0,Tour du Lac de Grand-Lieu (Loire-Atlantique)
+265,grp-nantais,164.0,870.0,81.0,1.0,Tour du Pays Nantais (Loire-Atlantique)
+266,grp-lomont,118.0,3116.0,839.0,334.0,Tour des Monts du Lomont (Doubs)
+267,grp-france,8405.0,156714.0,2878.0,0.0,Tour de France
+268,grp-sevre-et-maine-vignoble,120.0,630.0,72.0,2.0,"Tour du vignoble de Sèvre et Maine ( Loire-Atlantique, Vendée)"
+269,grp-valencay,225.0,1515.0,195.0,75.0,"Tour du pays de Valençay (Indre, Loir-et-Cher)"
+270,grp-pouzauges-puys,58.0,775.0,284.0,97.0,Tour des Puys de Pouzauges (Vendée)
+271,grp-limousine,91.0,798.0,223.0,79.0,Tour de la Vienne Limousine (Vienne)
+272,grp-salagou,25.0,751.0,488.0,84.0,Tour du Lac de Salagou (Hérault)
+273,grp-pic-saint-loup-seranne,68.0,2107.0,777.0,44.0,Tour dans le Grand Pic St-Loup de la Séranne aux gorges de l'Hérault
+274,grp-corse-mareamare-sud,82.0,3748.0,1183.0,4.0,Corse. Mare à Mare (Sud)
+275,grp-deodatie-sud,173.0,5428.0,988.0,337.0,Tour de la Déodatie Sud (Vosges)
+276,grp-yvelines,72.0,514.0,183.0,74.0,Traversée des Yvelines
+277,grp-prealpes,246.0,11808.0,1678.0,460.0,"Grande Traversée des Préalpes (Alpes-de-Haute-Provence, Hautes-Alpes)"
+278,grp-perics,46.0,2289.0,2587.0,1880.0,"Tour des Pérics (Pyrénées-Orientales, Ariège)"
+279,grp-pic-saint-loup-vignes,72.0,1123.0,540.0,73.0,Tour dans le Grand Pic Saint-Loup des Vignes aux Causses (Hérault)
+280,grp-paris1,21.0,148.0,94.0,30.0,Traversée de Paris (Nord-Sud)
+281,grp-levezou-lacs,103.0,2233.0,1004.0,588.0,Tour des Lacs du Lévézou (Aveyron)
+282,grp-deux-bar,109.0,1685.0,346.0,135.0,Tour des Deux Bar (Aube)
+283,grp-trois-rivieres,137.0,913.0,89.0,2.0,"Tour des trois rivières (Ille-et-Vilaine, Loire-Atlantique)"
+284,grp-st-guilhem,219.0,5436.0,1417.0,103.0,Chemin de Saint Guilhem
+285,grp-sonneurs,189.0,2038.0,499.0,183.0,Sur les Pas des Maîtres Sonneurs (Indre-Cher-Allier)
+286,grp-midi-correzien,115.0,2990.0,518.0,129.0,Tour du Midi Corrézien (Corrèze)
+287,grp-bachelard,29.0,666.0,346.0,166.0,Tour du Pays de Gaston Bachelard (Aube)        
+288,grp-bordeaux,121.0,548.0,71.0,1.0,Tour de Bordeaux (Gironde)
+289,grp-baronnies,222.0,10345.0,1519.0,355.0,Tour des Baronnies provençales (Drôme)
+290,grp-petites-roches,40.0,2698.0,1625.0,682.0,Tour des Petites Roches (Isère)
+291,grp-caux-vallee-de-seine,76.0,1485.0,150.0,3.0,Tour du Pays de Caux vallée de Seine (Seine-Maritime)
+292,grp-millevaches,58.0,1061.0,949.0,725.0,Tour du plateau de Millevaches (Corrèze)
+293,grp-mailles,164.0,4691.0,1164.0,460.0,Tour de Robe de Bure et Cotte de Mailles (Haute-Loire)
+294,grp-larzac,105.0,2721.0,827.0,240.0,Tour du Larzac Méridional (Hérault-Gard)
+295,grp-marches-de-meuse,99.0,1820.0,365.0,165.0,Tour des Marches de Meuse (Meuse)
+296,grp-vie-yon,88.0,438.0,81.0,24.0,Tour entre Vie et Yon (Vendée)
+297,grp-cerdon,57.0,1956.0,742.0,250.0,Tour de la vallée de l'Ain au Pays de Cerdon (Ain) 
+298,grp-corse-mareemonti-sud,74.0,2844.0,885.0,0.0,Corse. Mare è Monti (Sud)
+299,grp-corse-mareamare-nord,139.0,7739.0,1592.0,4.0,Corse. Mare à Mare (Nord)
+300,grp-gascogne,153.0,2463.0,264.0,69.0,Tour du Cœur de Gascogne (Gers)
+301,grp-avaloirs,122.0,1680.0,415.0,105.0,"Tour du Mont des Avaloirs (Mayenne, Orne, Sarthe)"
+302,grp-balcon-valromey,105.0,2476.0,1169.0,235.0,Tour du Balcon du Valromey (Ain) 
+303,grp-dordogne-ventadour,92.0,2368.0,680.0,267.0,Entre Dordogne et Ventadour (Corrèze)
+304,grp-vaucluse,66.0,2193.0,630.0,77.0,Tour des Monts de Vaucluse
+305,grp-blond,80.0,1237.0,495.0,236.0,Tour des Monts de Blond (Haute-Vienne)
+306,grp-ceinture-verte-ile-de-france,262.0,2477.0,188.0,21.0,Tour de la Ceinture Verte d'Ile-de-France
+307,grp-loutre,84.0,489.0,108.0,6.0,Tour du sentier de la Loutre (Vendée)
+308,grp-paris2,26.0,248.0,126.0,38.0,Traversée de Paris (Ouest-Est-Sud)
+309,grp-cerdagne,75.0,1923.0,1863.0,1135.0,"Tour de Cerdagne  (Pyrénées-Orientales, Catalogne-Espagne)"
+310,grp-omois,219.0,2961.0,252.0,55.0,"Tour de l'Omois (Aisne, Marne, Oise) "
+311,grp-buech-meouge,76.0,3593.0,1609.0,557.0,"Tour de Buëch et Méouge (Drôme, Hautes-Alpes)"
+312,grp-groix,25.0,411.0,41.0,1.0,Tour de l'Ile de Groix (Morbihan)
+313,grp-sylve-argenson,42.0,279.0,162.0,34.0,Traversée de la Sylve d'Argenson
+314,grp-suisse-normande,110.0,2687.0,266.0,22.0,"Tour de la Suisse normande (Calvados, Orne)"
+315,grp-luberon,170.0,6188.0,1057.0,94.0,"Tour du Luberon (Vaucluse, Alpes-de-Haute-Provence)"
+316,grp-avallonnais,194.0,3194.0,461.0,126.0,"Tour de l'Avallonnais (Yonne, Nièvre)"
+317,grp-jurassienne,303.0,7326.0,1405.0,200.0,L'Echappée jurassienne
+318,grp-provence-mines-energies-est,43.0,785.0,649.0,256.0,Tour en Provence Mines d'énergies Est (Bouches-du-Rhône)
+319,grp-pic-saint-loup-villages,47.0,966.0,440.0,90.0,Tour dans le Grand Pic St-Loup par les villages (Hérault)
+320,grp-dombes,99.0,1320.0,709.0,166.0,Traversée de la Dombes
+321,grp-melusine,104.0,1234.0,215.0,12.0,Tour de Mélusine (Vendée)
+322,grp-marches-de-bretagne,74.0,630.0,181.0,46.0,Marches de Bretagne 
+323,grp-gorges-de-la-loire,85.0,2141.0,702.0,423.0,Tour des Gorges de la Loire (Haute-Loire)
+324,grp-revermont,119.0,3639.0,649.0,218.0,"Tour du Revermont (Ain, Jura)"
+325,grp-TMB,159.0,10383.0,2528.0,977.0,"Tour du Mont-Blanc (Haute-Savoie, Suisse, Italie)"
+326,grp-morvan,231.0,6437.0,813.0,272.0,"Tour du Morvan (Nièvre, Saône-et-Loire, Côte-d'Or, Yonne)"
+327,grp-provence-mines-energies-sud,64.0,1878.0,627.0,184.0,Tour en Provence Mines d'énergies Sud (Bouches-du-Rhône)
+328,grp-chartreuse,104.0,6504.0,1903.0,578.0,"Tour de Chartreuse (Isère, Savoie)"
+329,grp-galeizon,56.0,2189.0,908.0,146.0,Tour de la Vallée du Galeizon (Gard-Lozère)
+330,grp-crozon,148.0,3370.0,325.0,0.0,Tour de la presqu'île de Crozon (Finistère)
+331,grp-woevre,75.0,795.0,415.0,208.0,Tour de la plaine de la Woëvre (Meuse)
+332,grp-sauveterre,162.0,4150.0,1035.0,457.0,Tour du Causse Sauveterre (Lozère-Aveyron)
+333,grp-pic-saint-loup-londres,54.0,1081.0,343.0,98.0,Tour dans le Grand Pic St-Loup entre Londres et Buèges (Hérault)
+334,grp-vins-fromages,111.0,1506.0,322.0,101.0,"Sentier des Vins et Fromages (Yonne, Aube)"
+335,grp-hautes-terres-oc,191.0,4575.0,1242.0,173.0,"Tour des Hautes Terres d'Oc (Tarn, Hérault)"
+336,grp-roanne,78.0,3621.0,1333.0,348.0,Tour de la Vallée de la Roanne (Drôme)
+337,grp-cidre,30.0,457.0,299.0,170.0,"Circuit du cidre dans le Pays d'Othe (Aube, Yonne)"
+338,grp-margot,56.0,1431.0,701.0,367.0,Tour de la Reine Margot (Puy-de-Dôme)
