@@ -11,7 +11,7 @@ ABSPATH_FILE = os.path.abspath(__file__)
 ABSPATH_PROJECT = os.path.dirname(ABSPATH_FILE)
 PATTERN_URL = re.compile(r'https?://(?:www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:/[^\s]*)?')
 PATTERN_PATH = re.compile(r'/(.*)$')
-PATTERN_GR_NAME = re.compile(r'(gr[0-9]{1,4}_?[A-Z]?|grr[0-9]|grp-[a-zA-Z-]+)')
+PATTERN_GR_NAME = re.compile(r'(gr[0-9]{1,4}_?[A-Z]?[A-Z]?[A-Z]?|grr[0-9]|grp-[a-zA-Z-]+[0-9]?)')
 PATTERN_GR_INFO_DISTANCE = re.compile(r'Distance:\s*(\d+,?\d?\d?)\s*km', re.IGNORECASE)
 PATTERN_GR_INFO_ALTITUDE_MAX = re.compile(r'Altitude maximum:\s*(\d+)\s*m', re.IGNORECASE)
 PATTERN_GR_INFO_ALTITUDE_MIN = re.compile(r'Altitude minimum:\s*(\d+)\s*m', re.IGNORECASE)
@@ -24,16 +24,16 @@ PATH_GPX = '/divers/gpx/'
 PNG = '.png'
 JPG = '.jpg'
 GPX = '.gpx'
-HTM = '.htm'
+HTML = '.html'
 
 
 # * Define function *
 
-def get_soup(url:str) -> BeautifulSoup | Exception:
-    """Returns a BeautifulSoup object from an url
+def get_soup(name:str) -> BeautifulSoup | Exception:
+    """Returns a BeautifulSoup object from the gr's name
 
     Args:
-        url (str): url of the page
+        name (str): name of the GR (in the gr_list.txt)
 
     Raises:
         ValueError: if the url is not conform
@@ -42,14 +42,11 @@ def get_soup(url:str) -> BeautifulSoup | Exception:
         BeautifulSoup: object of the page    
     """
     try : 
-        if is_url(url):
-            response = requests.get(url)
-            response.encoding = 'utf-8'
-            text_html = html.unescape(response.text) #Replace all html entity (&eacute) by unicode caract (é)
+        with open(os.path.join(ABSPATH_PROJECT, 'data', 'gr', name, name + HTML), 'r', encoding='utf-8') as file :
+            html_content = file.read()
+            text_html = html.unescape(html_content) #Replace all html entity (&eacute) by unicode caract (é)
             soup = BeautifulSoup(text_html, 'html.parser')        
             return soup
-        else:
-            raise Exception(f'url not conform : {url}') 
     except Exception as error :
         print(error)
         return error
@@ -132,6 +129,17 @@ def get_name(url) -> str | Exception:
     return name 
      
 def get_distance(soup: BeautifulSoup) -> int | float | Exception:
+    """Get distance of the GR
+    Args:
+        soup (BeautifulSoup): soup of the page
+    
+    Raises:
+        Exception: if no distance found
+
+    Returns:
+        int | float | Exception: int or float of the distance if found else the error
+    """
+    
     try :
         search = re.search(PATTERN_GR_INFO_DISTANCE, soup.text)
         if search is None :
@@ -150,6 +158,17 @@ def get_distance(soup: BeautifulSoup) -> int | float | Exception:
         return error
 
 def get_denivele(soup: BeautifulSoup) -> int | Exception:
+    """Get denivele of the GR
+    Args:
+        soup (BeautifulSoup): soup of the page
+    
+    Raises:
+        Exception: if no denivele found
+    
+    Returns:
+        int | Exception: int of the denivele if found else the error
+    """
+
     try :
         search = re.search(PATTERN_GR_INFO_DENIVELE, soup.text)
         if search is None :
@@ -162,6 +181,17 @@ def get_denivele(soup: BeautifulSoup) -> int | Exception:
         return error 
 
 def get_alt_max(soup: BeautifulSoup) -> int | Exception:
+    """Get altitude max of the GR
+    Args:
+        soup (BeautifulSoup): soup of the page
+    
+    Raises:
+        Exception: if no altitude max found
+    
+    Returns:
+        int | Exception: int of the altitude max if found else the error
+    """
+
     try :
         search = re.search(PATTERN_GR_INFO_ALTITUDE_MAX, soup.text)
         if search is None :
@@ -174,6 +204,17 @@ def get_alt_max(soup: BeautifulSoup) -> int | Exception:
         return error  
 
 def get_alt_min(soup: BeautifulSoup) -> int | Exception:
+    """Get altitude min of the GR
+    Args:
+        soup (BeautifulSoup): soup of the page
+        
+    Raises:
+        Exception: if no altitude min found
+        
+    Returns:
+        int | Exception: int of the altitude min if found else the error
+    """
+    
     try :
         search = re.search(PATTERN_GR_INFO_ALTITUDE_MIN, soup.text)
         if search is None :
@@ -185,7 +226,18 @@ def get_alt_min(soup: BeautifulSoup) -> int | Exception:
         print(f'altitude min no found : {error}')
         return error 
 
-def get_titles(soup: BeautifulSoup) -> list | Exception:
+def get_title(soup: BeautifulSoup) -> str | Exception:
+    """Get title of the GR
+
+    Args:
+        soup (BeautifulSoup): soup of the page
+
+    Raises:
+        Exception: if no title found
+
+    Returns:
+        list | Exception: str of the title if found else the error
+    """
     try :
         search = soup.find('h1')
         if search is None :
@@ -212,7 +264,7 @@ def is_url(url: str) -> bool:
     else :
         return False
     
-def get_data(url: str) -> tuple[dict, list[str]]:
+def get_data(name: str) -> tuple[dict, list[str]]:
     """Get data from an url
 
     Args:
@@ -221,18 +273,16 @@ def get_data(url: str) -> tuple[dict, list[str]]:
     Returns:
         dict: dict with the data
     """
-    soup = get_soup(url)
+
+    soup = get_soup(name)
     list_error = []
     
 
     # * If the soup is correct, get the information *
     if not isinstance(soup, Exception) :
+        
+        name_data = name[0:3].upper() + name[3:] 
 
-        name = get_name(url) # name of the GR
-        if isinstance(name, Exception) :
-            list_error.append('Name unfound for url : ' + url)
-            name = 'unfound'
-            
         distance = get_distance(soup) # distance of the GR
         if isinstance(distance, Exception) :
             list_error.append(name + ' : distance unfound')
@@ -253,7 +303,7 @@ def get_data(url: str) -> tuple[dict, list[str]]:
             list_error.append(name + ' : alt_min unfound')
             alt_min = None
 
-        title = get_titles(soup) # titles of the GR
+        title = get_title(soup) # titles of the GR
         if isinstance(title, Exception) :
             list_error.append(name + ' : titles unfound')
             title = None
@@ -284,7 +334,7 @@ def get_data(url: str) -> tuple[dict, list[str]]:
 
         # * Save information in json file *
         dict_info = {
-            'name': name,
+            'name': name_data,
             'distance': distance,
             'denivele': denivele,
             'altitude_max': alt_max,
@@ -308,14 +358,10 @@ def get_data(url: str) -> tuple[dict, list[str]]:
 
 if __name__ == "__main__":
     
-    # * Create list of link *
-    with open(os.path.join(ABSPATH_PROJECT, 'data', 'url_gr_list.txt'), 'r') as file : #GR
-        GR_LIST = file.readlines()
 
-    with open(os.path.join(ABSPATH_PROJECT, 'data', 'url_grp_list.txt'), 'r') as file : #GRP
-        GRP_LIST = file.readlines() 
-
-    list_all_gr = GR_LIST + GRP_LIST
+    # * Read list of name *
+    with open(os.path.join(ABSPATH_PROJECT, 'data', 'gr_name.txt'), 'r') as file :
+        list_all_gr = file.readlines()
 
     list_error = []
     dict_all_gr = {}
