@@ -42,7 +42,13 @@ def parcours_link(url, set_url: set, set_url_ban: set) -> set :
         soup = BeautifulSoup(response.text, "html.parser")
 
         # * Find all link in the page *
-        links = [a['href'] for a in soup.find_all('a', href=True) if a['href'].lower().endswith(('.html', '.htm'))]
+        links = []
+        for a in soup.find_all('a', href=True):
+            if isinstance(a, dict):
+                href = a.get('href')
+                if href and isinstance(href, str) and href.lower().endswith(('.html', '.htm')):
+                    links.append(href)
+
 
         # * Create list of href *
         href_list = []
@@ -50,7 +56,8 @@ def parcours_link(url, set_url: set, set_url_ban: set) -> set :
         # * Add link to the list of href according to the different case *
         for link in links:
             
-            if re.match(r'^https://www.gr-infos.com/gr[^.]', link):  
+            link = str(link)
+            if re.match(r'^https://www.gr-infos.com/gr[^.]', str(link)):  
                 if link not in set_url : 
                     href_list.append(link)
             elif not re.match(r'^https', link)  and not re.match(r'^\.\.|^en', link):    
@@ -75,7 +82,7 @@ def parcours_link(url, set_url: set, set_url_ban: set) -> set :
     return set()
 
 
-def getGrList() -> bool:
+def getGrList() -> bool | tuple[bool, Exception]:
     """Get the list of all GR and GRP from the main page of gr-infos.com and write it in gr_list.txt and grp_list.txt
     
     Returns:
@@ -159,4 +166,10 @@ def getGrList() -> bool:
 
     
 if __name__ == "__main__":
-    None
+    result = getGrList()
+    if result is True :
+        print('File(s) written successfully')
+    else : 
+        if result is tuple[bool, int] : 
+            print(f'Error(s) occurred: {result[1]}')
+
