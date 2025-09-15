@@ -16,10 +16,19 @@ Tout le processus est automatisé via un script de lancement (`launch.bat` sous 
 - [Python 3.11+](https://www.python.org/downloads/) installé sur votre machine
 - `git` (facultatif, si vous clonez le dépôt)
 
+
 ### Étapes
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/utilisateur/GR_GRP.git
    cd GR_GRP
+
+2. **Lancer le script adéquat** : 
+    '''bash
+    .\Scripts\launch.bat
+
+    '''Obuntu
+    ./Scripts/launch.sh
+
 
 
