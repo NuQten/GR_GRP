@@ -9,3 +9,5 @@
 
 # Exclude venv environments 
 /.venv
+/test/
+test*
