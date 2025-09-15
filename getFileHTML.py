@@ -34,6 +34,7 @@ def getFileHTML() -> Tuple[bool, Exception] | Tuple[bool, int] | bool :
 
 
     # * For each link in the list, get the html file and save it in a folder named after the GR/GRP name *
+    list_name = []
     nb_error = 0
     for url in url_list : 
         try :
@@ -42,6 +43,7 @@ def getFileHTML() -> Tuple[bool, Exception] | Tuple[bool, int] | bool :
                 name = 'unfound'
             else : 
                 name = search.group(1)
+                list_name.append(name)
 
             response = requests.get(url[:-1])
             response.encoding = 'utf-8'
@@ -55,6 +57,13 @@ def getFileHTML() -> Tuple[bool, Exception] | Tuple[bool, int] | bool :
         except Exception as error: 
             nb_error += 1
             print(error)
+
+        str_gr_name = ''
+        for link in list_name:
+            str_gr_name += link + '\n'
+
+        with open(os.path.join(ABSPATH_PROJECT, 'data', 'gr_name.txt'), 'w') as file :
+            file.write(str_gr_name)
     
     else : 
         if nb_error == 0 : 

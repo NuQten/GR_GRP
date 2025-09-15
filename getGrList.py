@@ -4,6 +4,7 @@
 import os
 import re
 import requests
+import bs4
 from bs4 import BeautifulSoup
 
 
@@ -44,7 +45,7 @@ def parcours_link(url, set_url: set, set_url_ban: set) -> set :
         # * Find all link in the page *
         links = []
         for a in soup.find_all('a', href=True):
-            if isinstance(a, dict):
+            if isinstance(a, bs4.element.Tag):
                 href = a.get('href')
                 if href and isinstance(href, str) and href.lower().endswith(('.html', '.htm')):
                     links.append(href)
@@ -149,6 +150,8 @@ def getGrList() -> bool | tuple[bool, Exception]:
 
     # * Write files *
     try : 
+        os.makedirs(os.path.join(ABSPATH_PROJECT, 'data'), exist_ok=True)
+
         with open(os.path.join(ABSPATH_PROJECT, 'data', 'url_gr_list.txt'), 'w') as file :
             file.write(str_list_link_gr)
 

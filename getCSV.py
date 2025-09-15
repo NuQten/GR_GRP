@@ -1,4 +1,6 @@
-from re import T
+# -*- coding: utf-8 -*-
+"""Script to convert the JSON file of all GR and GRP data to a CSV file"""
+
 import pandas
 import os
 

@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""Script to get all data from the html file of all GR and GRP in gr_list.txt and grp_list.txt
+and save it in all_gr_data.json and all_grp_data.json"""
+
 import os
 import re
 import requests
