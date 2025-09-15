@@ -377,7 +377,6 @@ if __name__ == "__main__":
             list_error.append(error)
         if dict != {} :
             dict_all_gr[dict['name']] = dict
-        print(f'End of {url}')
         
     # * Write data file *
     try :
