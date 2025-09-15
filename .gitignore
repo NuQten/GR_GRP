@@ -6,3 +6,6 @@
 !/data/*.csv
 
 /data_sure/*
+
+# Exclude venv environments 
+/.venv
