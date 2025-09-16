@@ -39,12 +39,10 @@ def get_soup(name:str) -> BeautifulSoup | Exception:
     Args:
         name (str): name of the GR (in the gr_list.txt)
 
-    Raises:
-        ValueError: if the url is not conform
-
     Returns:
-        BeautifulSoup: object of the page    
+        BeautifulSoup | Exception: object of the page or an exception if unfund 
     """
+
     try : 
         with open(os.path.join(ABSPATH_PROJECT, 'data', 'gr', name, name + HTML), 'r', encoding='utf-8') as file :
             html_content = file.read()
@@ -62,7 +60,7 @@ def get_elevation(gr_name:str) -> requests.Response | Exception:
         gr_name (str): name of the GR (in the gr_list.txt)
 
     Returns:
-        requests.Response|None: png of the elevation if the file is found else None
+        requests.Response | Exception : png of the elevation if the file is found else an exception
     """
 
     try : 
@@ -74,6 +72,16 @@ def get_elevation(gr_name:str) -> requests.Response | Exception:
     return response
 
 def save_elevation(path:str, content) -> bool | Exception:
+    """Save the files get by get_elevation
+
+    Args:
+        path (str): path where save file
+        content (_type_): content give by get_elevation
+
+    Returns:
+        bool | Exception: True if save else an exception
+    """
+
     try :
         with open(path, 'wb') as file :
             file.write(content)
@@ -83,6 +91,15 @@ def save_elevation(path:str, content) -> bool | Exception:
         return error
 
 def get_gpx(gr_name:str) -> requests.Response | Exception:
+    """Get gpx file from gr_name
+
+    Args: 
+        gr_name (str): name of the GR (in the gr_list.txt) 
+ 
+    Returns: 
+        requests.Response | Exception : gpx of the elevation if the file is found else an exception
+    """
+
     try : 
         response = requests.get(URL_DOMAINE + PATH_GPX + gr_name + GPX)
     except Exception as error :  
@@ -91,25 +108,53 @@ def get_gpx(gr_name:str) -> requests.Response | Exception:
 
     return response
 
-def save_gpx(path:str, content) -> bool | Exception:
-    try :
-        with open(path, 'wb') as file :
-            file.write(content)
+def save_gpx(path:str, content) -> bool | Exception: 
+    """Save the files get by get_gpx 
+
+    Args: 
+        path (str): path where save file 
+        content (_type_): content give by get_gpx 
+
+    Returns: 
+        bool | Exception: True if save else an exception 
+    """
+
+    try : 
+        with open(path, 'wb') as file : 
+            file.write(content) 
         return True
     except Exception as error :
         print(f'Save unsuccessful : {error}')
         return error
 
-def get_ign(gr_name:str) -> requests.Response | Exception:
-    try : 
-        response = requests.get(URL_DOMAINE + PATH_IGN + gr_name + '-min' + JPG)
-    except Exception as error :  
-        print(f'file unfound : {error}')
-        return error
+def get_ign(gr_name:str) -> requests.Response | Exception: 
+    """Get ign file from gr_name
 
-    return response
+    Args: 
+        gr_name (str): name of the GR (in the gr_list.txt) 
 
-def save_ign(path:str, content) -> bool | Exception:
+    Returns: 
+        requests.Response | Exception : ign of the elevation if the file is found else an exception
+    """
+
+    try :  
+        response = requests.get(URL_DOMAINE + PATH_IGN + gr_name + '-min' + JPG) 
+    except Exception as error :   
+        print(f'file unfound : {error}') 
+        return error 
+
+    return response 
+
+def save_ign(path:str, content) -> bool | Exception: 
+    """Save the files get by get_ign 
+
+    Args: 
+        path (str): path where save file 
+        content (_type_): content give by get_ign
+
+    Returns:
+        bool | Exception: True if save else an exception
+    """
     try :
         with open(path, 'wb') as file :
             file.write(content)
@@ -119,6 +164,14 @@ def save_ign(path:str, content) -> bool | Exception:
         return error
 
 def get_name(url) -> str | Exception:
+    """Get name from gr_name
+
+    Args:
+        gr_name (url) : url of the gr
+
+    Returns:
+        str | Exception : GR's name if found else an exception
+    """
     try : 
         search = re.search(PATTERN_GR_NAME, url)
         if search is None :
@@ -231,16 +284,15 @@ def get_alt_min(soup: BeautifulSoup) -> int | Exception:
         return error 
 
 def get_title(soup: BeautifulSoup) -> str | Exception:
-    """Get title of the GR
-
+    """Get the title of the GR
     Args:
         soup (BeautifulSoup): soup of the page
-
+        
     Raises:
         Exception: if no title found
-
+        
     Returns:
-        list | Exception: str of the title if found else the error
+        int | Exception: int of the altitude min if found else the error
     """
     try :
         search = soup.find('h1')
@@ -275,7 +327,7 @@ def get_data(name: str) -> tuple[dict, list[str]]:
         url (str): url of the page
 
     Returns:
-        dict: dict with the data
+        tuple(dict, list) : dict with the data, list of error(s)
     """
 
     soup = get_soup(name)

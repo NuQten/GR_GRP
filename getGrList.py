@@ -87,7 +87,8 @@ def getGrList() -> bool | tuple[bool, Exception]:
     """Get the list of all GR and GRP from the main page of gr-infos.com and write it in gr_list.txt and grp_list.txt
     
     Returns:
-        bool: True if the function is successful, else return False and the error
+        bool: True if the function is successful, 
+        tuple[bool, Exception] : False, name of the error
     """
 
     # * Define constant *

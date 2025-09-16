@@ -15,8 +15,11 @@ ABSPATH_PROJECT = os.path.dirname(ABSPATH_FILE)
 def getFileHTML() -> Tuple[bool, Exception] | Tuple[bool, int] | bool :
     """Get the html file of all GR and GRP from the list in gr_list.txt and grp_list.txt
     and save it in a folder named after the GR/GRP name
+
     Returns:
-        bool: True if the function is successful, else False and the error
+        bool: True if the function is successful
+        Tuple[bool, int] : False, number of error(s)
+        Tuple[bool, Exception] : False, name of error (can't create list of link)
     """
 
     # * Define constant *
