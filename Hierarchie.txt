@@ -1,0 +1,30 @@
+GR_GRP
+|
+|-- data/
+|   |-- gr/                  # Dossier contenant les données de chaque GR
+|   |   |-- gr1/             # Dossier pour chaque GR, avec les fichiers extraits
+|   |   |   |-- gp1.gpx      # Fichier GPX du tracé
+|   |   |   |-- gp1.html     # Page HTML du tracé
+|   |   |   |-- gp1.jpg      # Image du tracé (si disponible)
+|   |   |   |-- gp1.json     # Données au format JSON
+|   |   |   |-- gp1.png      # Image du tracé (si disponible)
+|   |   |   `-- ...
+|   |   `-- ...
+|   |-- all_gr_data.csv      # Fichier CSV consolidant les données de tous les GR
+|   |-- all_gr_data.json     # Fichier JSON consolidant les données de tous les GR
+|   |-- error_list.txt       # Liste des erreurs rencontrées lors du scraping
+|   |-- gr_name.txt          # Liste des noms des GR
+|   |-- url_error_list.txt   # Liste des URL ayant causé une erreur
+|   |-- url_gr_list.txt      # Liste des URL des pages GR
+|   `-- url_grp_list.txt     # Liste des URL des pages de groupes de GR
+|
+|-- Scripts/
+|   |-- launch.bat           # Script de lancement pour Windows
+|   `-- launch.sh            # Script de lancement pour Linux/macOS
+|
+|-- getCSV.py                # Script de création du fichier CSV final
+|-- getData.py               # Script de scraping des données
+|-- getFileHTML.py           # Script pour télécharger les fichiers HTML
+|-- getGrList.py             # Script pour obtenir la liste des GR
+|-- README.md                # Ce fichier
+`-- requirements.txt         # Dépendances du projet
