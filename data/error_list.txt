@@ -1,1 +1,9 @@
-grp-gervanne : titles unfound
+DONE | grr3 : distance unfound
+DONE | grr3 : denivele unfound
+DONE | grr3 : alt_max unfound
+DONE | grr3 : alt_min unfound
+DONE | grp-gervanne : titles unfound
+DONE | grp-maquisards : distance unfound
+DONE | grp-maquisards : denivele unfound
+DONE | grp-maquisards : alt_max unfound
+DONE | grp-maquisards : alt_min unfound
